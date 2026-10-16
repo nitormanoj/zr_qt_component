@@ -260,8 +260,13 @@ import QtQuick.Shapes
                                 x: orbitX + 24
                                 y: orbitY - height / 2
 
-                                width: Math.min(235, canvas.width * 0.31)
-                                height: 92
+                                // Reference proportions: top ends before the third arc;
+                                // bottom extends just 14 px past it (at the card centre).
+                                // The card role changes smoothly with sensorIndex.
+                                property real referenceWidth: offset < 0 ? 205 : (offset > 0 ? 230 : 267)
+                                property real referenceHeight: offset < 0 ? 86 : (offset > 0 ? 99 : 104)
+                                width: Math.min(referenceWidth, Math.max(120, canvas.width - x - 8))
+                                height: referenceHeight
                                 radius: 6
                                 color: "white"
                                 border.width: selected ? 2 : 1
@@ -303,7 +308,37 @@ import QtQuick.Shapes
                                     ColumnLayout { Layout.fillWidth: true; spacing: 3
                                         Text { text: app.sensors[index].name; font.pixelSize: 12; font.bold: true; color: "#333"; elide: Text.ElideRight; Layout.fillWidth: true }
                                         Text { text: app.sensors[index].model + " · " + app.sensors[index].serial; font.pixelSize: 8; color: "#92979b"; Layout.fillWidth: true; elide: Text.ElideRight }
-                                        Text { text: app.sensors[index].warning ? "⚠ " + app.sensors[index].warning : (app.sensors[index].linked ? "✓ Linked" : "Link"); font.pixelSize: 9; color: app.sensors[index].warning ? "#bc692e" : "#33915c"; wrapMode: Text.WordWrap; Layout.fillWidth: true }
+                                        // Warning and linked statuses remain text, but an unlinked
+                                        // sensor displays the outlined Link button from the reference.
+                                        Text {
+                                            visible: !!app.sensors[index].warning || app.sensors[index].linked
+                                            text: app.sensors[index].warning
+                                                  ? "⚠ " + app.sensors[index].warning
+                                                  : "✓ Linked"
+                                            font.pixelSize: 9
+                                            color: app.sensors[index].warning ? "#bc692e" : "#33915c"
+                                            wrapMode: Text.WordWrap
+                                            Layout.fillWidth: true
+                                        }
+                                        Rectangle {
+                                            visible: !app.sensors[index].linked && !app.sensors[index].warning
+                                            Layout.preferredWidth: 60
+                                            Layout.preferredHeight: 30
+                                            Layout.alignment: Qt.AlignLeft
+                                            radius: 4
+                                            color: "#FFFFFF"
+                                            border.width: 1
+                                            border.color: "#1A8080"
+                                            Text {
+                                                anchors.centerIn: parent
+                                                text: "Link"
+                                                color: "#1A8080"
+                                                font.family: "Segoe UI"
+                                                font.pixelSize: 11
+                                                font.weight: Font.DemiBold
+                                            }
+                                            // Visual-only button; no device-link API is wired yet.
+                                        }
                                     }
                                 }
                                 MouseArea { anchors.fill: parent; enabled: sensorCard.opacity > 0.10; cursorShape: Qt.PointingHandCursor; onClicked: { if (index !== app.sensorIndex) app.chooseSensor(index) } }
@@ -312,27 +347,20 @@ import QtQuick.Shapes
                         MachinePicture {
                             id: machineImage
 
+                            // Enlarged display area: PreserveAspectFit keeps the whole
+                            // machine and any shadow present in the source PNG visible.
                             property real imageScale: app.uiScale
-
-                            width: Math.min(
-                                canvas.width * 0.36,
-                                330 * imageScale
-                            )
-
-                            height: Math.min(
-                                canvas.height * 0.82,
-                                500 * imageScale
-                            )
-
-                            x: canvas.width - width - 12
+                            width: Math.min(canvas.width * 0.48, 430 * imageScale)
+                            height: Math.min(canvas.height * 0.90, 570 * imageScale)
+                            x: canvas.width - width - 14
                             y: (canvas.height - height) / 2
-
                             sourcePath: "images/testing-machine.png"
                         }
                     }
                 }
             }
             Rectangle {
+                id: strainPanel
                 Layout.preferredWidth: Math.min(350, Math.max(280, app.width*0.25)); Layout.fillHeight: true; radius: 12; color: "white"; clip: true
                 ColumnLayout { anchors.fill: parent; spacing: 0
                     Rectangle { Layout.fillWidth: true; Layout.preferredHeight: 59; color: "white"
@@ -412,15 +440,7 @@ import QtQuick.Shapes
                                     Layout.preferredHeight: 34
                                     font.family: "Segoe UI"
                                     font.pixelSize: 12
-                                    onClicked: {
-                                        if (app.sensorIndex >= 0 &&
-                                            app.sensorIndex < app.sensors.length) {
-                                            app.setupMessage =
-                                                "Configure " +
-                                                app.sensors[app.sensorIndex].name +
-                                                " (demo action)."
-                                        }
-                                    }
+                                    onClicked: strainConfigDrawer.open()
                                 }
                             }
 
@@ -429,7 +449,7 @@ import QtQuick.Shapes
                                 id: sensorWarningCard
                                 Layout.fillWidth: true
                                 Layout.preferredHeight: !visible ? 0 :
-                                                        app.sensorIndex === 1 ? 90 : 76
+                                                        app.sensorIndex === 1 ? 86 : 76
                                 radius: 7
                                 color: "#FFF7ED"
                                 border.color: "#EA580C"
@@ -664,4 +684,159 @@ import QtQuick.Shapes
                     }
                 }
             }
+
+    // Replace only the existing right-side Strain panel content.
+    // The popup is non-modal, so it does not darken or block the rest of the UI.
+    Popup {
+        id: strainConfigDrawer
+        parent: strainPanel
+        x: 0
+        y: 0
+        width: strainPanel.width
+        height: strainPanel.height
+        modal: false
+        dim: false
+        focus: true
+        padding: 0
+        closePolicy: Popup.CloseOnEscape
+        background: Rectangle {
+            color: "#FFFFFF"
+            radius: 12
+            border.color: "#E3E7E9"
+            border.width: 1
+        }
+
+        ColumnLayout {
+            anchors.fill: parent
+            spacing: 0
+
+            Rectangle {
+                Layout.fillWidth: true
+                Layout.preferredHeight: 62
+                color: "#FFFFFF"
+                RowLayout {
+                    anchors.fill: parent
+                    anchors.leftMargin: 22
+                    anchors.rightMargin: 20
+                    spacing: 12
+                    Text { text: "←"; font.pixelSize: 23; color: "#293139"; font.family: "Segoe UI"
+                        MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor; onClicked: strainConfigDrawer.close() }
+                    }
+                    Text { text: "Configure Strain"; font.pixelSize: 17; font.weight: Font.DemiBold; color: "#20252A"; font.family: "Segoe UI"; Layout.fillWidth: true }
+                    Text { text: "×"; font.pixelSize: 24; color: "#293139"; font.family: "Segoe UI"
+                        MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor; onClicked: strainConfigDrawer.close() }
+                    }
+                }
+                Rectangle { anchors.bottom: parent.bottom; width: parent.width; height: 1; color: "#DDE2E5" }
+            }
+
+            ScrollView {
+                Layout.fillWidth: true
+                Layout.fillHeight: true
+                clip: true
+                ScrollBar.horizontal.policy: ScrollBar.AlwaysOff
+                ColumnLayout {
+                    width: Math.max(0, strainConfigDrawer.width - 36)
+                    x: 18
+                    spacing: 0
+                    Item { Layout.preferredHeight: 6 }
+                    Repeater {
+                        model: ["Camera & Illumination Settings", "Live Alignment & Focus", "Advanced Tracking Parameters"]
+                        delegate: Rectangle {
+                            required property string modelData
+                            Layout.fillWidth: true; Layout.preferredHeight: 59
+                            color: "white"
+                            RowLayout {
+                                anchors.fill: parent; anchors.leftMargin: 12; anchors.rightMargin: 12
+                                Text { text: modelData; color: "#172632"; font.family: "Segoe UI"; font.pixelSize: 12; font.weight: Font.DemiBold; Layout.fillWidth: true }
+                                Text { text: "+"; color: "#6D7377"; font.pixelSize: 21 }
+                            }
+                            Rectangle { anchors.bottom: parent.bottom; width: parent.width; height: 1; color: "#E6EAEC" }
+                        }
+                    }
+                    Repeater {
+                        model: [ {label: "Edge Detection Sensitivity", value: "High"}, {label: "Mark Loss Behavior", value: "Pause Test"} ]
+                        delegate: Rectangle {
+                            required property var modelData
+                            Layout.fillWidth: true; Layout.preferredHeight: 47; color: "white"
+                            RowLayout {
+                                anchors.fill: parent; anchors.leftMargin: 12; anchors.rightMargin: 10; spacing: 8
+                                Text { text: modelData.label; font.family: "Segoe UI"; font.pixelSize: 11; color: "#172632"; Layout.fillWidth: true }
+                                Rectangle {
+                                    Layout.preferredWidth: 110; Layout.preferredHeight: 31
+                                    radius: 4; color: "#F5F6F7"; border.color: "#D7DCE0"
+                                    RowLayout { anchors.fill: parent; anchors.leftMargin: 7; anchors.rightMargin: 7
+                                        Text { text: modelData.value; color: "#60666A"; font.family: "Segoe UI"; font.pixelSize: 11; Layout.fillWidth: true }
+                                        // Draw the chevron instead of using a font glyph, which sits too low.
+                                        Canvas {
+                                            Layout.preferredWidth: 14
+                                            Layout.preferredHeight: 10
+                                            Layout.alignment: Qt.AlignVCenter
+                                            onPaint: {
+                                                var ctx = getContext("2d")
+                                                ctx.clearRect(0, 0, width, height)
+                                                ctx.beginPath()
+                                                ctx.moveTo(1, 2)
+                                                ctx.lineTo(7, 8)
+                                                ctx.lineTo(13, 2)
+                                                ctx.strokeStyle = "#60666A"
+                                                ctx.lineWidth = 1.3
+                                                ctx.lineCap = "round"
+                                                ctx.lineJoin = "round"
+                                                ctx.stroke()
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            Rectangle { anchors.bottom: parent.bottom; width: parent.width; height: 1; color: "#E6EAEC" }
+                        }
+                    }
+                    Rectangle {
+                        Layout.fillWidth: true; Layout.preferredHeight: 54; color: "white"
+                        RowLayout {
+                            anchors.fill: parent; anchors.leftMargin: 12; anchors.rightMargin: 12; spacing: 9
+                            Text { text: "Image Filtering"; font.family: "Segoe UI"; font.pixelSize: 11; color: "#172632"; Layout.fillWidth: true }
+                            Text { text: "Off"; font.family: "Segoe UI"; font.pixelSize: 11; color: "#8B9AA6" }
+                            Rectangle {
+                                Layout.preferredWidth: 26; Layout.preferredHeight: 15; radius: 8; color: "#1A8080"
+                                Rectangle { width: 11; height: 11; radius: 6; color: "white"; anchors.right: parent.right; anchors.rightMargin: 2; anchors.verticalCenter: parent.verticalCenter }
+                            }
+                            Text { text: "On"; font.family: "Segoe UI"; font.pixelSize: 11; color: "#8B9AA6" }
+                        }
+                        Rectangle { anchors.bottom: parent.bottom; width: parent.width; height: 1; color: "#E6EAEC" }
+                    }
+                    Rectangle {
+                        Layout.fillWidth: true; Layout.preferredHeight: 59; color: "white"
+                        RowLayout { anchors.fill: parent; anchors.leftMargin: 12; anchors.rightMargin: 12
+                            Text { text: "Detailed Calibration Management"; font.family: "Segoe UI"; font.pixelSize: 12; font.weight: Font.DemiBold; color: "#172632"; Layout.fillWidth: true }
+                            Text { text: "+"; font.pixelSize: 21; color: "#6D7377" }
+                        }
+                        Rectangle { anchors.bottom: parent.bottom; width: parent.width; height: 1; color: "#E6EAEC" }
+                    }
+                }
+            }
+
+            Rectangle {
+                Layout.fillWidth: true; Layout.preferredHeight: 55
+                color: "white"
+                Rectangle { anchors.top: parent.top; width: parent.width; height: 1; color: "#DDE2E5" }
+                RowLayout {
+                    anchors.fill: parent; anchors.leftMargin: 18; anchors.rightMargin: 18; spacing: 12
+                    Item { Layout.fillWidth: true }
+                    Button { text: "Cancel"; Layout.preferredWidth: 103; Layout.preferredHeight: 36
+                        onClicked: strainConfigDrawer.close()
+                        background: Rectangle { radius: 4; color: "white"; border.color: "#1A8080" }
+                        contentItem: Text { text: parent.text; color: "#1A8080"; font.pixelSize: 12; font.family: "Segoe UI"; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter }
+                    }
+                    Button { text: "Save"; Layout.preferredWidth: 103; Layout.preferredHeight: 36
+                        onClicked: strainConfigDrawer.close()
+                        background: Rectangle { radius: 4; color: "#1A8080" }
+                        contentItem: Text { text: parent.text; color: "white"; font.pixelSize: 12; font.family: "Segoe UI"; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter }
+                    }
+                }
+            }
+        }
+    }
+
         }
