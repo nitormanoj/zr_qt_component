@@ -32,7 +32,7 @@ Rectangle {
             text: "Level  <font color='#ed2028'>/</font>  Level  <font color='#ed2028'>/</font>  Level"
             font.family: "Segoe UI"
             font.pixelSize: 12
-            color: "#343b41"
+            color: "#3D4043"
             Layout.leftMargin: 20
             visible: headerBar.width >= 850
         }
