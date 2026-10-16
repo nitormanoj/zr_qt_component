@@ -1,0 +1,14 @@
+module QTDemoApp
+typeinfo appQTDemoApp.qmltypes
+prefer :/qt/qml/QTDemoApp/
+Main 254.0 Main.qml
+SetupDialog 254.0 SetupDialog.qml
+FlatButton 254.0 FlatButton.qml
+HeaderNav 254.0 HeaderNav.qml
+Landing 254.0 Landing.qml
+LeftNav 254.0 LeftNav.qml
+MachinePicture 254.0 MachinePicture.qml
+NavIcon 254.0 NavIcon.qml
+Rotator 254.0 Rotator.qml
+depends QtQuick
+

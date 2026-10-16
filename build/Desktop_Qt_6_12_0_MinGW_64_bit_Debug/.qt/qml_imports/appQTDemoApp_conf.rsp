@@ -1,0 +1,15 @@
+-rootPath
+C:/Users/shital.birnale/source/repos/QTDemoApp
+-cmake-output
+-output-file
+C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/qml_imports/appQTDemoApp_conf.cmake
+-importPath
+C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug
+-importPath
+C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp
+-importPath
+C:/Qt/6.12.0/mingw_64/qml
+-qrcFiles
+C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc
+C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc
+C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc

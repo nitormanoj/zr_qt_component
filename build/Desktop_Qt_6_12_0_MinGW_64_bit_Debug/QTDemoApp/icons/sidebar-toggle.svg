@@ -1,0 +1,26 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="32"
+     height="32"
+     viewBox="0 0 32 32"
+     fill="none">
+
+  <!-- Rounded outer border -->
+  <rect x="1.5" y="1.5"
+        width="29" height="29"
+        rx="5.5"
+        stroke="#3D4043"
+        stroke-width="1.7"/>
+
+  <!-- Light teal sidebar -->
+  <path d="M7 2.5 V29.5"
+        stroke="#1A8080"
+        stroke-width="1.7"/>
+
+  <!-- Right-facing chevron -->
+  <path d="M18 11 L23 16 L18 21"
+        stroke="#3D4043"
+        stroke-width="1.7"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>

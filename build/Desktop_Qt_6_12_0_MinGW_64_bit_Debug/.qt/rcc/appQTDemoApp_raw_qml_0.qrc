@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/qt/qml/QTDemoApp/">
+    <file alias="Main.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/Main.qml</file>
+    <file alias="SetupDialog.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/SetupDialog.qml</file>
+    <file alias="FlatButton.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/FlatButton.qml</file>
+    <file alias="HeaderNav.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/HeaderNav.qml</file>
+    <file alias="Landing.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/Landing.qml</file>
+    <file alias="LeftNav.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/LeftNav.qml</file>
+    <file alias="MachinePicture.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/MachinePicture.qml</file>
+    <file alias="NavIcon.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/NavIcon.qml</file>
+    <file alias="Rotator.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/Rotator.qml</file>
+  </qresource>
+</RCC>
+
