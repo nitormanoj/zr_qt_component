@@ -4,6 +4,7 @@ import QtQuick.Layouts
 Rectangle {
     id: headerBar
     property color edgeColor: "#d9dee2"
+    property bool documentsMode: false
     implicitHeight: 61
     height: 61
     color: "#eceeef"
@@ -22,7 +23,7 @@ Rectangle {
         }
         Text {
             textFormat: Text.RichText
-            text: "<b>test<span style='color:#ec2029'>X</span>pert</b>"
+            text: headerBar.documentsMode ? "<b>Test Data <span style='color:#ec2029'>M</span>anagement</b>" : "<b>test<span style='color:#ec2029'>X</span>pert</b>"
             font.family: "Segoe UI"
             font.pixelSize: 18
             color: "#111111"
@@ -34,7 +35,7 @@ Rectangle {
             font.pixelSize: 12
             color: "#3D4043"
             Layout.leftMargin: 20
-            visible: headerBar.width >= 850
+            visible: !headerBar.documentsMode && headerBar.width >= 850
         }
         Item { Layout.fillWidth: true }
 

@@ -34,6 +34,20 @@ set(src_and_dest_list
     "C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/icons/header-shield-off.svg"
     "C:/Users/shital.birnale/source/repos/QTDemoApp/icons/sidebar-toggle.svg"
     "C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/icons/sidebar-toggle.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/icons/documents-grid.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/icons/documents-grid.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/icons/documents-sliders.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/icons/documents-sliders.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-saved.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/icons/filter-saved.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-program.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/icons/filter-program.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-material.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/icons/filter-material.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-job.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/icons/filter-job.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-date.svg"
+    "C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/icons/filter-date.svg"
 
 )
 set(timestamp_file "C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/appQTDemoApp_res.txt")

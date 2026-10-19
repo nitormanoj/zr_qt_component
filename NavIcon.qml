@@ -1,7 +1,4 @@
 import QtQuick
-import QtQuick.Controls
-import QtQuick.Layouts
-import QtQuick.Shapes
 
 Rectangle {
     id: navItem
@@ -40,6 +37,8 @@ Rectangle {
         cursorShape: Qt.PointingHandCursor
         onClicked: {
             app.activeMenu = navItem.menu
+            if (navItem.menu === "documents") app.screen = "documents"
+            else if (navItem.menu === "testing") app.screen = "landing"
         }
     }
 }

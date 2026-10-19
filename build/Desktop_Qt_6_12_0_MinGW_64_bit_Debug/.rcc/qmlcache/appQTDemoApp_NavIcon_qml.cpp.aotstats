@@ -10,7 +10,7 @@
                             "column": 12,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 16,
+                            "line": 13,
                             "message": "Cannot load property activeMenu from NavIcon::app with type QVariant."
                         },
                         {
@@ -18,7 +18,7 @@
                             "column": 18,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 19,
+                            "line": 16,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -26,7 +26,7 @@
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 21,
+                            "line": 18,
                             "message": ""
                         },
                         {
@@ -34,7 +34,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "left",
-                            "line": 23,
+                            "line": 20,
                             "message": ""
                         },
                         {
@@ -42,7 +42,7 @@
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "source",
-                            "line": 30,
+                            "line": 27,
                             "message": ""
                         },
                         {
@@ -50,7 +50,7 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 31,
+                            "line": 28,
                             "message": ""
                         },
                         {
@@ -58,7 +58,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 27,
+                            "line": 24,
                             "message": ""
                         },
                         {
@@ -66,7 +66,7 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 40,
+                            "line": 37,
                             "message": ""
                         },
                         {
@@ -74,7 +74,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 41,
+                            "line": 38,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -82,7 +82,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 38,
+                            "line": 35,
                             "message": ""
                         }
                     ],

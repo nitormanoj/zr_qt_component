@@ -20,11 +20,16 @@ qt_add_executable(appQTDemoApp
 qt_add_qml_module(appQTDemoApp
     URI QTDemoApp
     QML_FILES
-        Main.qml
+        Main.qml Documents.qml ProgramFilterPopup.qml DateFilterPopup.qml
+        AnalysisWorkspace.qml AnalysisCurveGraph.qml AnalysisStatistics.qml
+        GraphSettingsPopup.qml
+        AnalysisInsights.qml
         RESOURCES icons/documents.svg icons/messages.svg icons/tasks.svg icons/testing.svg icons/upload.svg icons/users.svg images/compression.png images/metal.png images/round-specimen.png images/tensile.png images/testing-machine.png
         QML_FILES SetupDialog.qml FlatButton.qml HeaderNav.qml Landing.qml LeftNav.qml MachinePicture.qml NavIcon.qml Rotator.qml
         RESOURCES icons/header-bell.svg icons/header-grid.svg icons/header-settings.svg icons/header-shield-off.svg
         RESOURCES icons/sidebar-toggle.svg
+        RESOURCES icons/documents-grid.svg icons/documents-sliders.svg
+        RESOURCES icons/filter-saved.svg icons/filter-program.svg icons/filter-material.svg icons/filter-job.svg icons/filter-date.svg
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

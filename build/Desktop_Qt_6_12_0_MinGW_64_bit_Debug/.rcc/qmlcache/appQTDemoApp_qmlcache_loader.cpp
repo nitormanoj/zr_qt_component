@@ -13,6 +13,70 @@ namespace _qt_qml_QTDemoApp_Main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
     };
 }
+namespace _qt_qml_QTDemoApp_Documents_qml { 
+    extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
+    };
+}
+namespace _qt_qml_QTDemoApp_ProgramFilterPopup_qml { 
+    extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
+    };
+}
+namespace _qt_qml_QTDemoApp_DateFilterPopup_qml { 
+    extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
+    };
+}
+namespace _qt_qml_QTDemoApp_AnalysisWorkspace_qml { 
+    extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
+    };
+}
+namespace _qt_qml_QTDemoApp_AnalysisCurveGraph_qml { 
+    extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
+    };
+}
+namespace _qt_qml_QTDemoApp_AnalysisStatistics_qml { 
+    extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
+    };
+}
+namespace _qt_qml_QTDemoApp_GraphSettingsPopup_qml { 
+    extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
+    };
+}
+namespace _qt_qml_QTDemoApp_AnalysisInsights_qml { 
+    extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], &validateLookupSignatures
+    };
+}
 namespace _qt_qml_QTDemoApp_SetupDialog_qml { 
     extern bool validateLookupSignatures(QQmlEngine *engine, QV4::CompiledData::CompilationUnit *cu);
     extern const unsigned char qmlData[];
@@ -92,6 +156,14 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/QTDemoApp/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_QTDemoApp_Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/QTDemoApp/Documents.qml"), &QmlCacheGeneratedCode::_qt_qml_QTDemoApp_Documents_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/QTDemoApp/ProgramFilterPopup.qml"), &QmlCacheGeneratedCode::_qt_qml_QTDemoApp_ProgramFilterPopup_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/QTDemoApp/DateFilterPopup.qml"), &QmlCacheGeneratedCode::_qt_qml_QTDemoApp_DateFilterPopup_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/QTDemoApp/AnalysisWorkspace.qml"), &QmlCacheGeneratedCode::_qt_qml_QTDemoApp_AnalysisWorkspace_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/QTDemoApp/AnalysisCurveGraph.qml"), &QmlCacheGeneratedCode::_qt_qml_QTDemoApp_AnalysisCurveGraph_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/QTDemoApp/AnalysisStatistics.qml"), &QmlCacheGeneratedCode::_qt_qml_QTDemoApp_AnalysisStatistics_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/QTDemoApp/GraphSettingsPopup.qml"), &QmlCacheGeneratedCode::_qt_qml_QTDemoApp_GraphSettingsPopup_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/QTDemoApp/AnalysisInsights.qml"), &QmlCacheGeneratedCode::_qt_qml_QTDemoApp_AnalysisInsights_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/QTDemoApp/SetupDialog.qml"), &QmlCacheGeneratedCode::_qt_qml_QTDemoApp_SetupDialog_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/QTDemoApp/FlatButton.qml"), &QmlCacheGeneratedCode::_qt_qml_QTDemoApp_FlatButton_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/QTDemoApp/HeaderNav.qml"), &QmlCacheGeneratedCode::_qt_qml_QTDemoApp_HeaderNav_qml::unit);

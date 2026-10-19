@@ -119,6 +119,118 @@ QTDemoApp/appQTDemoApp.qmltypes: appqtdemoapp_qmltyperegistrations.cpp
 .rcc/qmlcache/appQTDemoApp_Main_qml.cpp.aotstats: .rcc/qmlcache/appQTDemoApp_Main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQTDemoApp_Main_qml.cpp.aotstats
 
+.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp: C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/Documents.qml
+.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp: .qt/rcc/qmake_QTDemoApp.qrc
+.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp: .qt/rcc/appQTDemoApp_raw_qml_0.qrc
+.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
+.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
+.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp: QTDemoApp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appQTDemoApp_Documents_qml.cpp, .rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/Documents.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/Documents.qml
+
+.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.aotstats: .rcc/qmlcache/appQTDemoApp_Documents_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQTDemoApp_Documents_qml.cpp.aotstats
+
+.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp: C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/ProgramFilterPopup.qml
+.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp: .qt/rcc/qmake_QTDemoApp.qrc
+.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp: .qt/rcc/appQTDemoApp_raw_qml_0.qrc
+.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
+.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
+.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp: QTDemoApp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp, .rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/ProgramFilterPopup.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/ProgramFilterPopup.qml
+
+.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.aotstats: .rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQTDemoApp_ProgramFilterPopup_qml.cpp.aotstats
+
+.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp: C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/DateFilterPopup.qml
+.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp: .qt/rcc/qmake_QTDemoApp.qrc
+.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp: .qt/rcc/appQTDemoApp_raw_qml_0.qrc
+.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
+.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
+.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp: QTDemoApp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp, .rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/DateFilterPopup.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/DateFilterPopup.qml
+
+.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.aotstats: .rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQTDemoApp_DateFilterPopup_qml.cpp.aotstats
+
+.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp: C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisWorkspace.qml
+.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp: .qt/rcc/qmake_QTDemoApp.qrc
+.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp: .qt/rcc/appQTDemoApp_raw_qml_0.qrc
+.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
+.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
+.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp: QTDemoApp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp, .rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/AnalysisWorkspace.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisWorkspace.qml
+
+.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.aotstats: .rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQTDemoApp_AnalysisWorkspace_qml.cpp.aotstats
+
+.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp: C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisCurveGraph.qml
+.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp: .qt/rcc/qmake_QTDemoApp.qrc
+.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp: .qt/rcc/appQTDemoApp_raw_qml_0.qrc
+.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
+.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
+.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp: QTDemoApp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp, .rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/AnalysisCurveGraph.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisCurveGraph.qml
+
+.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.aotstats: .rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQTDemoApp_AnalysisCurveGraph_qml.cpp.aotstats
+
+.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp: C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisStatistics.qml
+.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp: .qt/rcc/qmake_QTDemoApp.qrc
+.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp: .qt/rcc/appQTDemoApp_raw_qml_0.qrc
+.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
+.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
+.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp: QTDemoApp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp, .rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/AnalysisStatistics.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisStatistics.qml
+
+.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.aotstats: .rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQTDemoApp_AnalysisStatistics_qml.cpp.aotstats
+
+.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp: C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/GraphSettingsPopup.qml
+.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp: .qt/rcc/qmake_QTDemoApp.qrc
+.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp: .qt/rcc/appQTDemoApp_raw_qml_0.qrc
+.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
+.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
+.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp: QTDemoApp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating .rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp, .rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/GraphSettingsPopup.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/GraphSettingsPopup.qml
+
+.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.aotstats: .rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQTDemoApp_GraphSettingsPopup_qml.cpp.aotstats
+
+.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp: C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisInsights.qml
+.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp: .qt/rcc/qmake_QTDemoApp.qrc
+.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp: .qt/rcc/appQTDemoApp_raw_qml_0.qrc
+.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
+.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
+.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp: QTDemoApp/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating .rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp, .rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/AnalysisInsights.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisInsights.qml
+
+.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.aotstats: .rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQTDemoApp_AnalysisInsights_qml.cpp.aotstats
+
 .rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp: C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe
 .rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/SetupDialog.qml
 .rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp: .qt/rcc/qmake_QTDemoApp.qrc
@@ -126,7 +238,7 @@ QTDemoApp/appQTDemoApp.qmltypes: appqtdemoapp_qmltyperegistrations.cpp
 .rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
 .rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
 .rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp: QTDemoApp/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp, .rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating .rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp, .rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/SetupDialog.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/SetupDialog.qml
 
@@ -140,7 +252,7 @@ QTDemoApp/appQTDemoApp.qmltypes: appqtdemoapp_qmltyperegistrations.cpp
 .rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
 .rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
 .rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp: QTDemoApp/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating .rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp, .rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating .rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp, .rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/FlatButton.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/FlatButton.qml
 
@@ -154,7 +266,7 @@ QTDemoApp/appQTDemoApp.qmltypes: appqtdemoapp_qmltyperegistrations.cpp
 .rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
 .rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
 .rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp: QTDemoApp/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating .rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp, .rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating .rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp, .rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/HeaderNav.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/HeaderNav.qml
 
@@ -168,7 +280,7 @@ QTDemoApp/appQTDemoApp.qmltypes: appqtdemoapp_qmltyperegistrations.cpp
 .rcc/qmlcache/appQTDemoApp_Landing_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
 .rcc/qmlcache/appQTDemoApp_Landing_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
 .rcc/qmlcache/appQTDemoApp_Landing_qml.cpp: QTDemoApp/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating .rcc/qmlcache/appQTDemoApp_Landing_qml.cpp, .rcc/qmlcache/appQTDemoApp_Landing_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating .rcc/qmlcache/appQTDemoApp_Landing_qml.cpp, .rcc/qmlcache/appQTDemoApp_Landing_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/Landing.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Landing_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/Landing.qml
 
@@ -182,7 +294,7 @@ QTDemoApp/appQTDemoApp.qmltypes: appqtdemoapp_qmltyperegistrations.cpp
 .rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
 .rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
 .rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp: QTDemoApp/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating .rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp, .rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating .rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp, .rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/LeftNav.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/LeftNav.qml
 
@@ -196,7 +308,7 @@ QTDemoApp/appQTDemoApp.qmltypes: appqtdemoapp_qmltyperegistrations.cpp
 .rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
 .rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
 .rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp: QTDemoApp/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating .rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp, .rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating .rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp, .rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/MachinePicture.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/MachinePicture.qml
 
@@ -210,7 +322,7 @@ QTDemoApp/appQTDemoApp.qmltypes: appqtdemoapp_qmltyperegistrations.cpp
 .rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
 .rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
 .rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp: QTDemoApp/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating .rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp, .rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating .rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp, .rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/NavIcon.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/NavIcon.qml
 
@@ -224,7 +336,7 @@ QTDemoApp/appQTDemoApp.qmltypes: appqtdemoapp_qmltyperegistrations.cpp
 .rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
 .rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp: QTDemoApp/appQTDemoApp.qmltypes
 .rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp: QTDemoApp/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating .rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp, .rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating .rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp, .rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/QTDemoApp/Rotator.qml -I C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/QTDemoApp/qmldir --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_QTDemoApp.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --resource C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --dump-aot-stats --module-id=QTDemoApp(appQTDemoApp) -o C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp C:/Users/shital.birnale/source/repos/QTDemoApp/Rotator.qml
 
@@ -232,6 +344,14 @@ QTDemoApp/appQTDemoApp.qmltypes: appqtdemoapp_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appQTDemoApp_Rotator_qml.cpp.aotstats
 
 .qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/Main.qml
+.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/Documents.qml
+.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/ProgramFilterPopup.qml
+.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/DateFilterPopup.qml
+.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisWorkspace.qml
+.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisCurveGraph.qml
+.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisStatistics.qml
+.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/GraphSettingsPopup.qml
+.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisInsights.qml
 .qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/SetupDialog.qml
 .qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/FlatButton.qml
 .qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/HeaderNav.qml
@@ -242,7 +362,7 @@ QTDemoApp/appQTDemoApp.qmltypes: appqtdemoapp_qmltyperegistrations.cpp
 .qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/Rotator.qml
 .qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: .qt/rcc/appQTDemoApp_raw_qml_0.qrc
 .qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp: C:/Qt/6.12.0/mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Running rcc for resource appQTDemoApp_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Running rcc for resource appQTDemoApp_raw_qml_0"
 	C:\Qt\6.12.0\mingw_64\bin\rcc.exe --output C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp --name appQTDemoApp_raw_qml_0 C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_qml_0.qrc --no-zstd
 
 .qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/documents.svg
@@ -261,31 +381,38 @@ QTDemoApp/appQTDemoApp.qmltypes: appqtdemoapp_qmltyperegistrations.cpp
 .qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/header-settings.svg
 .qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/header-shield-off.svg
 .qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/sidebar-toggle.svg
+.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/documents-grid.svg
+.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/documents-sliders.svg
+.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-saved.svg
+.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-program.svg
+.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-material.svg
+.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-job.svg
+.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-date.svg
 .qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: .qt/rcc/appQTDemoApp_raw_res_0.qrc
 .qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp: C:/Qt/6.12.0/mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Running rcc for resource appQTDemoApp_raw_res_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Running rcc for resource appQTDemoApp_raw_res_0"
 	C:\Qt\6.12.0\mingw_64\bin\rcc.exe --output C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp --name appQTDemoApp_raw_res_0 C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc --no-zstd
 
 appQTDemoApp_autogen/timestamp: C:/Qt/6.12.0/mingw_64/bin/moc.exe
 appQTDemoApp_autogen/timestamp: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Automatic MOC and UIC for target appQTDemoApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Automatic MOC and UIC for target appQTDemoApp"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/appQTDemoApp_autogen.dir/AutogenInfo.json Debug
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/appQTDemoApp_autogen/timestamp
 
 meta_types/appQTDemoApp_json_file_list.txt: C:/Qt/6.12.0/mingw_64/bin/cmake_automoc_parser.exe
 meta_types/appQTDemoApp_json_file_list.txt: appQTDemoApp_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Running AUTOMOC file extraction for target appQTDemoApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Running AUTOMOC file extraction for target appQTDemoApp"
 	C:\Qt\6.12.0\mingw_64\bin\cmake_automoc_parser.exe --cmake-autogen-cache-file C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/appQTDemoApp_autogen.dir/ParseCache.txt --cmake-autogen-info-file C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/appQTDemoApp_autogen.dir/AutogenInfo.json --output-file-path C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/meta_types/appQTDemoApp_json_file_list.txt --timestamp-file-path C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/meta_types/appQTDemoApp_json_file_list.txt.timestamp --cmake-autogen-include-dir-path C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/appQTDemoApp_autogen/include
 
 meta_types/qt6appqtdemoapp_metatypes.json: meta_types/qt6appqtdemoapp_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating meta_types/qt6appqtdemoapp_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating meta_types/qt6appqtdemoapp_metatypes.json"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E true
 
 CMakeFiles/appQTDemoApp.dir/appQTDemoApp_autogen/mocs_compilation.cpp.obj: CMakeFiles/appQTDemoApp.dir/flags.make
 CMakeFiles/appQTDemoApp.dir/appQTDemoApp_autogen/mocs_compilation.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/appQTDemoApp_autogen/mocs_compilation.cpp.obj: appQTDemoApp_autogen/mocs_compilation.cpp
 CMakeFiles/appQTDemoApp.dir/appQTDemoApp_autogen/mocs_compilation.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appQTDemoApp.dir/appQTDemoApp_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/appQTDemoApp.dir/appQTDemoApp_autogen/mocs_compilation.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/appQTDemoApp_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\appQTDemoApp_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\appQTDemoApp_autogen\mocs_compilation.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\appQTDemoApp_autogen\mocs_compilation.cpp
 
 CMakeFiles/appQTDemoApp.dir/appQTDemoApp_autogen/mocs_compilation.cpp.i: cmake_force
@@ -300,7 +427,7 @@ CMakeFiles/appQTDemoApp.dir/main.cpp.obj: CMakeFiles/appQTDemoApp.dir/flags.make
 CMakeFiles/appQTDemoApp.dir/main.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/main.cpp.obj: C:/Users/shital.birnale/source/repos/QTDemoApp/main.cpp
 CMakeFiles/appQTDemoApp.dir/main.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appQTDemoApp.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/appQTDemoApp.dir/main.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/main.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\main.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\main.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\main.cpp
 
 CMakeFiles/appQTDemoApp.dir/main.cpp.i: cmake_force
@@ -315,7 +442,7 @@ CMakeFiles/appQTDemoApp.dir/appqtdemoapp_qmltyperegistrations.cpp.obj: CMakeFile
 CMakeFiles/appQTDemoApp.dir/appqtdemoapp_qmltyperegistrations.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/appqtdemoapp_qmltyperegistrations.cpp.obj: appqtdemoapp_qmltyperegistrations.cpp
 CMakeFiles/appQTDemoApp.dir/appqtdemoapp_qmltyperegistrations.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appQTDemoApp.dir/appqtdemoapp_qmltyperegistrations.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/appQTDemoApp.dir/appqtdemoapp_qmltyperegistrations.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wa,-mbig-obj -MD -MT CMakeFiles/appQTDemoApp.dir/appqtdemoapp_qmltyperegistrations.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\appqtdemoapp_qmltyperegistrations.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\appqtdemoapp_qmltyperegistrations.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\appqtdemoapp_qmltyperegistrations.cpp
 
 CMakeFiles/appQTDemoApp.dir/appqtdemoapp_qmltyperegistrations.cpp.i: cmake_force
@@ -330,7 +457,7 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/q
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.cpp.obj: .qt/rcc/qrc_qmake_QTDemoApp.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_qmake_QTDemoApp.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_qmake_QTDemoApp.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_qmake_QTDemoApp.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.cpp.i: cmake_force
@@ -345,7 +472,7 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_qmlcache_loader.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_qmlcache_loader.cpp.obj: .rcc/qmlcache/appQTDemoApp_qmlcache_loader.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_qmlcache_loader.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_qmlcache_loader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_qmlcache_loader.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_qmlcache_loader.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_qmlcache_loader.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_qmlcache_loader.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_qmlcache_loader.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_qmlcache_loader.cpp.i: cmake_force
@@ -360,7 +487,7 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Main_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Main_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_Main_qml.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Main_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Main_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Main_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Main_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Main_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Main_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Main_qml.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Main_qml.cpp.i: cmake_force
@@ -371,11 +498,131 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Main_qml.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Main_qml.cpp -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Main_qml.cpp.s
 
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/flags.make
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_Documents_qml.cpp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Documents_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Documents_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Documents_qml.cpp
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Documents_qml.cpp > CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Documents_qml.cpp.i
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Documents_qml.cpp -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Documents_qml.cpp.s
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/flags.make
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_ProgramFilterPopup_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_ProgramFilterPopup_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_ProgramFilterPopup_qml.cpp
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_ProgramFilterPopup_qml.cpp > CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_ProgramFilterPopup_qml.cpp.i
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_ProgramFilterPopup_qml.cpp -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_ProgramFilterPopup_qml.cpp.s
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/flags.make
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_DateFilterPopup_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_DateFilterPopup_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_DateFilterPopup_qml.cpp
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_DateFilterPopup_qml.cpp > CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_DateFilterPopup_qml.cpp.i
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_DateFilterPopup_qml.cpp -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_DateFilterPopup_qml.cpp.s
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/flags.make
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisWorkspace_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisWorkspace_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisWorkspace_qml.cpp
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisWorkspace_qml.cpp > CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisWorkspace_qml.cpp.i
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisWorkspace_qml.cpp -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisWorkspace_qml.cpp.s
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/flags.make
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisCurveGraph_qml.cpp
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisCurveGraph_qml.cpp > CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisCurveGraph_qml.cpp.i
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisCurveGraph_qml.cpp -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisCurveGraph_qml.cpp.s
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/flags.make
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisStatistics_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisStatistics_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisStatistics_qml.cpp
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisStatistics_qml.cpp > CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisStatistics_qml.cpp.i
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisStatistics_qml.cpp -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisStatistics_qml.cpp.s
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/flags.make
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_GraphSettingsPopup_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_GraphSettingsPopup_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_GraphSettingsPopup_qml.cpp
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_GraphSettingsPopup_qml.cpp > CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_GraphSettingsPopup_qml.cpp.i
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_GraphSettingsPopup_qml.cpp -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_GraphSettingsPopup_qml.cpp.s
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/flags.make
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisInsights_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisInsights_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisInsights_qml.cpp
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisInsights_qml.cpp > CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisInsights_qml.cpp.i
+
+CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisInsights_qml.cpp -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_AnalysisInsights_qml.cpp.s
+
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/flags.make
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_SetupDialog_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_SetupDialog_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_SetupDialog_qml.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp.i: cmake_force
@@ -390,7 +637,7 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_FlatButton_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_FlatButton_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_FlatButton_qml.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.i: cmake_force
@@ -405,7 +652,7 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_HeaderNav_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_HeaderNav_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_HeaderNav_qml.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.i: cmake_force
@@ -420,7 +667,7 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Landing_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Landing_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_Landing_qml.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Landing_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Landing_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Landing_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Landing_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Landing_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Landing_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Landing_qml.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Landing_qml.cpp.i: cmake_force
@@ -435,7 +682,7 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_LeftNav_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_LeftNav_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_LeftNav_qml.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_LeftNav_qml.cpp.i: cmake_force
@@ -450,7 +697,7 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_MachinePicture_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_MachinePicture_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_MachinePicture_qml.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_MachinePicture_qml.cpp.i: cmake_force
@@ -465,7 +712,7 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_NavIcon_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_NavIcon_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_NavIcon_qml.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp.i: cmake_force
@@ -480,7 +727,7 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp.obj: .rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Rotator_qml.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Rotator_qml.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appQTDemoApp_Rotator_qml.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp.i: cmake_force
@@ -495,7 +742,7 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/q
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp.obj: .qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_appQTDemoApp_raw_qml_0.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_appQTDemoApp_raw_qml_0.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_appQTDemoApp_raw_qml_0.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp.i: cmake_force
@@ -510,7 +757,7 @@ CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/q
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp.obj: CMakeFiles/appQTDemoApp.dir/includes_CXX.rsp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp.obj: .qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp.obj: CMakeFiles/appQTDemoApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp.obj -MF CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_appQTDemoApp_raw_res_0.cpp.obj.d -o CMakeFiles\appQTDemoApp.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_appQTDemoApp_raw_res_0.cpp.obj -c C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_appQTDemoApp_raw_res_0.cpp
 
 CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp.i: cmake_force
@@ -529,6 +776,14 @@ appQTDemoApp_OBJECTS = \
 "CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.cpp.obj" \
 "CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_qmlcache_loader.cpp.obj" \
 "CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Main_qml.cpp.obj" \
+"CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.obj" \
+"CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.obj" \
+"CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.obj" \
+"CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.obj" \
+"CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj" \
+"CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.obj" \
+"CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.obj" \
+"CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.obj" \
 "CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp.obj" \
 "CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.obj" \
 "CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.obj" \
@@ -549,6 +804,14 @@ appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/appqtdemoapp_qmltyperegistrations.
 appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.cpp.obj
 appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_qmlcache_loader.cpp.obj
 appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Main_qml.cpp.obj
+appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.obj
+appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.obj
+appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.obj
+appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.obj
+appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj
+appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.obj
+appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.obj
+appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.obj
 appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp.obj
 appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.obj
 appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.obj
@@ -571,7 +834,7 @@ appQTDemoApp.exe: appQTDemoApp.exe.manifest
 appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/linkLibs.rsp
 appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/objects1.rsp
 appQTDemoApp.exe: CMakeFiles/appQTDemoApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable appQTDemoApp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX executable appQTDemoApp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\appQTDemoApp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -585,8 +848,22 @@ CMakeFiles/appQTDemoApp.dir/clean:
 CMakeFiles/appQTDemoApp.dir/depend: .qt/rcc/qrc_appQTDemoApp_raw_qml_0.cpp
 CMakeFiles/appQTDemoApp.dir/depend: .qt/rcc/qrc_appQTDemoApp_raw_res_0.cpp
 CMakeFiles/appQTDemoApp.dir/depend: .qt/rcc/qrc_qmake_QTDemoApp.cpp
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.aotstats
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.aotstats
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.aotstats
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.aotstats
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.aotstats
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_Documents_qml.cpp
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.aotstats
 CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp
 CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.aotstats
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.aotstats
 CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp
 CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.aotstats
 CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_Landing_qml.cpp
@@ -599,6 +876,8 @@ CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_Main_qml.cpp
 CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_Main_qml.cpp.aotstats
 CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp
 CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp.aotstats
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp
+CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.aotstats
 CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp
 CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp.aotstats
 CMakeFiles/appQTDemoApp.dir/depend: .rcc/qmlcache/appQTDemoApp_SetupDialog_qml.cpp

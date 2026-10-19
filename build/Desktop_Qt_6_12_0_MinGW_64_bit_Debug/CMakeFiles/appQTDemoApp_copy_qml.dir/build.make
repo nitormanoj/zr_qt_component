@@ -69,6 +69,14 @@ CMakeFiles/appQTDemoApp_copy_qml: .qt/appQTDemoApp_qml.txt
 
 .qt/appQTDemoApp_qml.txt: C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 .qt/appQTDemoApp_qml.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/Main.qml
+.qt/appQTDemoApp_qml.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/Documents.qml
+.qt/appQTDemoApp_qml.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/ProgramFilterPopup.qml
+.qt/appQTDemoApp_qml.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/DateFilterPopup.qml
+.qt/appQTDemoApp_qml.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisWorkspace.qml
+.qt/appQTDemoApp_qml.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisCurveGraph.qml
+.qt/appQTDemoApp_qml.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisStatistics.qml
+.qt/appQTDemoApp_qml.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/GraphSettingsPopup.qml
+.qt/appQTDemoApp_qml.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisInsights.qml
 .qt/appQTDemoApp_qml.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/SetupDialog.qml
 .qt/appQTDemoApp_qml.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/FlatButton.qml
 .qt/appQTDemoApp_qml.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/HeaderNav.qml
