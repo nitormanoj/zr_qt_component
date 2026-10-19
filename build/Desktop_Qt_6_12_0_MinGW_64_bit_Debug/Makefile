@@ -553,6 +553,150 @@ build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.cpp.s
 .PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.cpp.s
 
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.obj
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.i: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.i
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.s: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.cpp.s
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.obj
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.i: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.i
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.s: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.cpp.s
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.obj
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.i: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.i
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.s: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.cpp.s
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.obj
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.i: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.i
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.s: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.cpp.s
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.obj
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.i: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.i
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.s: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.cpp.s
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.obj
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.i: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.i
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.s: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.cpp.s
+
 build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.obj
 .PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.obj
 
@@ -576,6 +720,30 @@ build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton
 build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.s
 .PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.cpp.s
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.obj
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.i: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.i
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.s: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.cpp.s
 
 build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.cpp.obj
 .PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.obj
@@ -721,6 +889,30 @@ build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qm
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp.s
 .PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.cpp.s
 
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.obj
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.i: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.i
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.s: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appQTDemoApp.dir\build.make CMakeFiles/appQTDemoApp.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.cpp.s
+
 build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.cpp.obj
 .PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.obj
 
@@ -865,9 +1057,30 @@ help:
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.obj
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.i
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_QTDemoApp.s
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.obj
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.i
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisCurveGraph_qml.s
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.obj
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.i
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisInsights_qml.s
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.obj
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.i
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisStatistics_qml.s
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.obj
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.i
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_AnalysisWorkspace_qml.s
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.obj
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.i
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_DateFilterPopup_qml.s
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.obj
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.i
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Documents_qml.s
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.obj
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.i
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_FlatButton_qml.s
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.obj
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.i
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_GraphSettingsPopup_qml.s
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.obj
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.i
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_HeaderNav_qml.s
@@ -886,6 +1099,9 @@ help:
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.obj
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.i
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_NavIcon_qml.s
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.obj
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.i
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_ProgramFilterPopup_qml.s
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.obj
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.i
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appQTDemoApp_Rotator_qml.s

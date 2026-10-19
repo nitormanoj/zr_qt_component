@@ -1,0 +1,9 @@
+# Local build output and portable packages
+/build/
+/build-*/
+/dist/
+
+# Machine-specific Qt language-server and Qt Creator settings
+/.qmlls.ini
+/.qtcreator/*.user
+/.qtcreator/*.user.*

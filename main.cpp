@@ -1,9 +1,11 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QFont>
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
+    QGuiApplication::setFont(QFont(QStringLiteral("Segoe UI")));
 
     QQmlApplicationEngine engine;
     QObject::connect(

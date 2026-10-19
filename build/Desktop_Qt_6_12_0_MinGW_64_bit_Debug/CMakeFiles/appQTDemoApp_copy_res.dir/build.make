@@ -84,6 +84,13 @@ CMakeFiles/appQTDemoApp_copy_res: .qt/appQTDemoApp_res.txt
 .qt/appQTDemoApp_res.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/header-settings.svg
 .qt/appQTDemoApp_res.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/header-shield-off.svg
 .qt/appQTDemoApp_res.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/sidebar-toggle.svg
+.qt/appQTDemoApp_res.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/documents-grid.svg
+.qt/appQTDemoApp_res.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/documents-sliders.svg
+.qt/appQTDemoApp_res.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-saved.svg
+.qt/appQTDemoApp_res.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-program.svg
+.qt/appQTDemoApp_res.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-material.svg
+.qt/appQTDemoApp_res.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-job.svg
+.qt/appQTDemoApp_res.txt: C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-date.svg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\shital.birnale\source\repos\QTDemoApp\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying appQTDemoApp qml resources into build dir"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -DFILES_INFO_PATH=C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/appQTDemoApp_res.cmake -P C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

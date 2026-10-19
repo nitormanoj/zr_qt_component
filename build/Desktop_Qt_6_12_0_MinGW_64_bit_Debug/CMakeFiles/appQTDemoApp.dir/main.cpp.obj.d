@@ -400,4 +400,7 @@ CMakeFiles/appQTDemoApp.dir/main.cpp.obj: \
  C:/Qt/6.12.0/mingw_64/include/QtQml/qqmlregistration.h \
  C:/Qt/6.12.0/mingw_64/include/QtQmlIntegration/qqmlintegration.h \
  C:/Qt/6.12.0/mingw_64/include/QtQml/qqmlerror.h \
- C:/Qt/6.12.0/mingw_64/include/QtQml/qqmlabstracturlinterceptor.h
+ C:/Qt/6.12.0/mingw_64/include/QtQml/qqmlabstracturlinterceptor.h \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/QFont \
+ C:/Qt/6.12.0/mingw_64/include/QtGui/qfont.h \
+ C:/Qt/6.12.0/mingw_64/include/QtCore/qendian.h

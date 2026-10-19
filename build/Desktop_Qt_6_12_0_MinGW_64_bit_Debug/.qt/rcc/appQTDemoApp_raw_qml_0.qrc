@@ -1,6 +1,14 @@
 <RCC>
   <qresource prefix="/qt/qml/QTDemoApp/">
     <file alias="Main.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/Main.qml</file>
+    <file alias="Documents.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/Documents.qml</file>
+    <file alias="ProgramFilterPopup.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/ProgramFilterPopup.qml</file>
+    <file alias="DateFilterPopup.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/DateFilterPopup.qml</file>
+    <file alias="AnalysisWorkspace.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisWorkspace.qml</file>
+    <file alias="AnalysisCurveGraph.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisCurveGraph.qml</file>
+    <file alias="AnalysisStatistics.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisStatistics.qml</file>
+    <file alias="GraphSettingsPopup.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/GraphSettingsPopup.qml</file>
+    <file alias="AnalysisInsights.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisInsights.qml</file>
     <file alias="SetupDialog.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/SetupDialog.qml</file>
     <file alias="FlatButton.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/FlatButton.qml</file>
     <file alias="HeaderNav.qml">C:/Users/shital.birnale/source/repos/QTDemoApp/HeaderNav.qml</file>

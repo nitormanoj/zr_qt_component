@@ -16,6 +16,13 @@
     <file alias="icons/header-settings.svg">C:/Users/shital.birnale/source/repos/QTDemoApp/icons/header-settings.svg</file>
     <file alias="icons/header-shield-off.svg">C:/Users/shital.birnale/source/repos/QTDemoApp/icons/header-shield-off.svg</file>
     <file alias="icons/sidebar-toggle.svg">C:/Users/shital.birnale/source/repos/QTDemoApp/icons/sidebar-toggle.svg</file>
+    <file alias="icons/documents-grid.svg">C:/Users/shital.birnale/source/repos/QTDemoApp/icons/documents-grid.svg</file>
+    <file alias="icons/documents-sliders.svg">C:/Users/shital.birnale/source/repos/QTDemoApp/icons/documents-sliders.svg</file>
+    <file alias="icons/filter-saved.svg">C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-saved.svg</file>
+    <file alias="icons/filter-program.svg">C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-program.svg</file>
+    <file alias="icons/filter-material.svg">C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-material.svg</file>
+    <file alias="icons/filter-job.svg">C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-job.svg</file>
+    <file alias="icons/filter-date.svg">C:/Users/shital.birnale/source/repos/QTDemoApp/icons/filter-date.svg</file>
   </qresource>
 </RCC>
 

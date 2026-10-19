@@ -1,7 +1,5 @@
 import QtQuick
 import QtQuick.Controls
-import QtQuick.Layouts
-import QtQuick.Shapes
 
 Button {
     id: fb
@@ -27,15 +25,5 @@ Button {
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         elide: Text.ElideRight
-    }
-    onHoveredChanged: {
-        console.log(
-            "Button:", text,
-            "Hovered:", hovered,
-            "Primary:", primary,
-            "Enabled:", enabled,
-            "Background:", background.color
-        )
-         console.log("Is Primary:", fb.primary)
     }
 }

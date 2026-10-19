@@ -1,7 +1,6 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-import QtQuick.Shapes
 
 ApplicationWindow {
     id: appWindow
@@ -18,6 +17,7 @@ ApplicationWindow {
     property color edge: "#d9dee2"
     property string screen: "landing"
     property string activeMenu: "testing"
+    property var analysisSpecimens: []
     property string targetType: "Tensile Test"
     property string selectedStandard: "zwickroell"
     property string testingLabel: "Tensile Test - G3467"
@@ -61,13 +61,14 @@ ApplicationWindow {
         createPopup.setupNameValue = "Tensile Test - G3467"
         createPopup.open()
     }
-    header: HeaderNav { edgeColor: appWindow.edge }
+    header: HeaderNav { edgeColor: appWindow.edge; documentsMode: appWindow.screen === "documents" || appWindow.screen === "analysis" }
 
     RowLayout {
         anchors.fill: parent
         spacing: 0
 
         LeftNav {
+            visible: appWindow.screen !== "analysis"
             app: appWindow
             Layout.preferredWidth: 66
             Layout.fillHeight: true
@@ -81,6 +82,18 @@ ApplicationWindow {
                 anchors.fill: parent
                 app: appWindow
                 visible: appWindow.screen === "landing"
+            }
+            Documents {
+                anchors.fill: parent
+                visible: appWindow.screen === "documents"
+                onAnalyseRequested: function(specimens) { appWindow.analysisSpecimens = specimens; analysisView.activeTab = 0; appWindow.screen = "analysis" }
+            }
+            AnalysisWorkspace {
+                id: analysisView
+                anchors.fill: parent
+                visible: appWindow.screen === "analysis"
+                specimens: appWindow.analysisSpecimens
+                onBackRequested: appWindow.screen = "documents"
             }
             Rotator {
                 id: rotator

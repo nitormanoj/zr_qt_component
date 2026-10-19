@@ -10,7 +10,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "compactMode",
-                            "line": 12,
+                            "line": 11,
                             "message": "Cannot access value for name width"
                         },
                         {
@@ -18,7 +18,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "smallHeight",
-                            "line": 13,
+                            "line": 12,
                             "message": "Cannot access value for name height"
                         },
                         {
@@ -26,8 +26,16 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "uiScale",
-                            "line": 14,
+                            "line": 13,
                             "message": "Cannot access value for name width"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 37,
+                            "durationMicroseconds": 0,
+                            "functionName": "analysisSpecimens",
+                            "line": 20,
+                            "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
                             "codegenResult": 2,
@@ -40,7 +48,7 @@
                         {
                             "codegenResult": 2,
                             "column": 27,
-                            "durationMicroseconds": 0,
+                            "durationMicroseconds": 1000,
                             "functionName": "sensors",
                             "line": 30,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
@@ -94,6 +102,14 @@
                             "message": "Cannot access value for name appWindow"
                         },
                         {
+                            "codegenResult": 2,
+                            "column": 67,
+                            "durationMicroseconds": 0,
+                            "functionName": "documentsMode",
+                            "line": 64,
+                            "message": "Cannot access value for name appWindow"
+                        },
+                        {
                             "codegenResult": 0,
                             "column": 23,
                             "durationMicroseconds": 0,
@@ -103,10 +119,18 @@
                         },
                         {
                             "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 71,
+                            "message": "Cannot retrieve a non-object type by ID: appWindow"
+                        },
+                        {
+                            "codegenResult": 2,
                             "column": 18,
                             "durationMicroseconds": 0,
                             "functionName": "app",
-                            "line": 71,
+                            "line": 72,
                             "message": "Cannot retrieve a non-object type by ID: appWindow"
                         },
                         {
@@ -114,7 +138,7 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "app",
-                            "line": 82,
+                            "line": 83,
                             "message": "Cannot retrieve a non-object type by ID: appWindow"
                         },
                         {
@@ -122,7 +146,7 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 83,
+                            "line": 84,
                             "message": "Cannot retrieve a non-object type by ID: appWindow"
                         },
                         {
@@ -130,24 +154,32 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 81,
+                            "line": 82,
                             "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 22,
-                            "durationMicroseconds": 0,
-                            "functionName": "app",
-                            "line": 88,
-                            "message": "Cannot retrieve a non-object type by ID: appWindow"
                         },
                         {
                             "codegenResult": 2,
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
+                            "line": 88,
+                            "message": "Cannot retrieve a non-object type by ID: appWindow"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 37,
+                            "durationMicroseconds": 0,
+                            "functionName": "onAnalyseRequested",
                             "line": 89,
                             "message": "Cannot retrieve a non-object type by ID: appWindow"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 37,
+                            "durationMicroseconds": 0,
+                            "functionName": "onAnalyseRequested",
+                            "line": 89,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
@@ -159,10 +191,66 @@
                         },
                         {
                             "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 94,
+                            "message": "Cannot retrieve a non-object type by ID: appWindow"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 28,
+                            "durationMicroseconds": 0,
+                            "functionName": "specimens",
+                            "line": 95,
+                            "message": "Cannot retrieve a non-object type by ID: appWindow"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 34,
+                            "durationMicroseconds": 0,
+                            "functionName": "onBackRequested",
+                            "line": 96,
+                            "message": "Cannot retrieve a non-object type by ID: appWindow"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 93,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "app",
+                            "line": 101,
+                            "message": "Cannot retrieve a non-object type by ID: appWindow"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 102,
+                            "message": "Cannot retrieve a non-object type by ID: appWindow"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 100,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
                             "column": 14,
                             "durationMicroseconds": 0,
                             "functionName": "app",
-                            "line": 96,
+                            "line": 109,
                             "message": "Cannot retrieve a non-object type by ID: appWindow"
                         }
                     ],

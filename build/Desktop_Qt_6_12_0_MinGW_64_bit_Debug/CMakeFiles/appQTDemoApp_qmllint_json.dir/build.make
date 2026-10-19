@@ -67,6 +67,14 @@ include CMakeFiles/appQTDemoApp_qmllint_json.dir/progress.make
 
 CMakeFiles/appQTDemoApp_qmllint_json: C:/Qt/6.12.0/mingw_64/bin/qmllint.exe
 CMakeFiles/appQTDemoApp_qmllint_json: C:/Users/shital.birnale/source/repos/QTDemoApp/Main.qml
+CMakeFiles/appQTDemoApp_qmllint_json: C:/Users/shital.birnale/source/repos/QTDemoApp/Documents.qml
+CMakeFiles/appQTDemoApp_qmllint_json: C:/Users/shital.birnale/source/repos/QTDemoApp/ProgramFilterPopup.qml
+CMakeFiles/appQTDemoApp_qmllint_json: C:/Users/shital.birnale/source/repos/QTDemoApp/DateFilterPopup.qml
+CMakeFiles/appQTDemoApp_qmllint_json: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisWorkspace.qml
+CMakeFiles/appQTDemoApp_qmllint_json: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisCurveGraph.qml
+CMakeFiles/appQTDemoApp_qmllint_json: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisStatistics.qml
+CMakeFiles/appQTDemoApp_qmllint_json: C:/Users/shital.birnale/source/repos/QTDemoApp/GraphSettingsPopup.qml
+CMakeFiles/appQTDemoApp_qmllint_json: C:/Users/shital.birnale/source/repos/QTDemoApp/AnalysisInsights.qml
 CMakeFiles/appQTDemoApp_qmllint_json: C:/Users/shital.birnale/source/repos/QTDemoApp/SetupDialog.qml
 CMakeFiles/appQTDemoApp_qmllint_json: C:/Users/shital.birnale/source/repos/QTDemoApp/FlatButton.qml
 CMakeFiles/appQTDemoApp_qmllint_json: C:/Users/shital.birnale/source/repos/QTDemoApp/HeaderNav.qml

@@ -5,6 +5,14 @@ C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_
 --resource
 C:/Users/shital.birnale/source/repos/QTDemoApp/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appQTDemoApp_raw_res_0.qrc
 /qt/qml/QTDemoApp/Main.qml
+/qt/qml/QTDemoApp/Documents.qml
+/qt/qml/QTDemoApp/ProgramFilterPopup.qml
+/qt/qml/QTDemoApp/DateFilterPopup.qml
+/qt/qml/QTDemoApp/AnalysisWorkspace.qml
+/qt/qml/QTDemoApp/AnalysisCurveGraph.qml
+/qt/qml/QTDemoApp/AnalysisStatistics.qml
+/qt/qml/QTDemoApp/GraphSettingsPopup.qml
+/qt/qml/QTDemoApp/AnalysisInsights.qml
 /qt/qml/QTDemoApp/SetupDialog.qml
 /qt/qml/QTDemoApp/FlatButton.qml
 /qt/qml/QTDemoApp/HeaderNav.qml

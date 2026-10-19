@@ -10,7 +10,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 12,
+                            "line": 13,
                             "message": ""
                         },
                         {
@@ -18,7 +18,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 21,
+                            "line": 22,
                             "message": ""
                         },
                         {
@@ -26,7 +26,15 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "textFormat",
-                            "line": 24,
+                            "line": 25,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 19,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 26,
                             "message": ""
                         },
                         {
@@ -34,7 +42,7 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "textFormat",
-                            "line": 31,
+                            "line": 32,
                             "message": ""
                         },
                         {
@@ -42,7 +50,7 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 37,
+                            "line": 38,
                             "message": ""
                         },
                         {
@@ -50,7 +58,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 45,
+                            "line": 46,
                             "message": ""
                         },
                         {
@@ -58,7 +66,7 @@
                             "column": 82,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 47,
+                            "line": 48,
                             "message": "Cannot access value for name edgeColor"
                         },
                         {
@@ -66,7 +74,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 52,
+                            "line": 53,
                             "message": ""
                         },
                         {
@@ -74,7 +82,7 @@
                             "column": 23,
                             "durationMicroseconds": 0,
                             "functionName": "fillMode",
-                            "line": 58,
+                            "line": 59,
                             "message": ""
                         },
                         {
@@ -82,7 +90,7 @@
                             "column": 82,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 60,
+                            "line": 61,
                             "message": "Cannot access value for name edgeColor"
                         },
                         {
@@ -90,7 +98,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 67,
+                            "line": 68,
                             "message": ""
                         },
                         {
@@ -98,7 +106,7 @@
                             "column": 82,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 75,
+                            "line": 76,
                             "message": "Cannot access value for name edgeColor"
                         },
                         {
@@ -106,7 +114,7 @@
                             "column": 25,
                             "durationMicroseconds": 0,
                             "functionName": "textFormat",
-                            "line": 77,
+                            "line": 78,
                             "message": ""
                         }
                     ],
