@@ -12,21 +12,22 @@ Popup {
     property color ink: "#202a31"
     property color edge: "#d9dee2"
     id: createPopup
-    width: Math.min(460, app.width-32); height: Math.min(440, app.height-30)
-    x: (app.width-width)/2; y: (app.height-height)/2
+    parent: Overlay.overlay
+    width: Math.min(384, parent.width-32); height: Math.min(374, parent.height-30)
+    x: (parent.width-width)/2; y: (parent.height-height)/2
     modal: true; focus: true; padding: 0; closePolicy: Popup.CloseOnEscape | Popup.CloseOnPressOutside
     background: Rectangle { color: "white"; radius: 7; border.color: "#cbd3d8"; border.width: 1 }
     contentItem: ColumnLayout { spacing: 0
-        Rectangle { Layout.fillWidth: true; Layout.preferredHeight: 58; color: "white"
-            RowLayout { anchors.fill: parent; anchors.leftMargin: 18; anchors.rightMargin: 17
-                Text { text: "Create A New Testing Setup";font.family: "Segoe UI"; font.pixelSize: 20; font.bold: true; color: "#212324"; Layout.fillWidth: true }
+        Rectangle { Layout.fillWidth: true; Layout.preferredHeight: 50; color: "transparent"
+            RowLayout { anchors.fill: parent; anchors.leftMargin: 10; anchors.rightMargin: 14
+                Text { text: "Create A New Testing Setup";font.family: "Segoe UI"; font.pixelSize: 14; font.weight: Font.DemiBold; color: "#212324"; Layout.fillWidth: true }
                 Text { text: "×"; font.pixelSize: 28; color: "#59626b"; MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor; onClicked: createPopup.close() } }
             }
-            Rectangle { anchors.bottom: parent.bottom; height: 1; width: parent.width; color: edge }
+            Rectangle { anchors.top: parent.top; anchors.left: parent.left; anchors.right: parent.right; anchors.margins: 3; height: 2; color: "#1a8080" }
         }
-        ColumnLayout { Layout.fillWidth: true; Layout.fillHeight: true; Layout.leftMargin: 26; Layout.rightMargin: 26; Layout.topMargin: 26; spacing: 10
-            Text { text: "Target Type"; font.pixelSize: 14; color: ink ;font.family: "Segoe UI"}
-            RowLayout { Layout.fillWidth: true; spacing: 22
+        ColumnLayout { Layout.fillWidth: true; Layout.fillHeight: true; Layout.leftMargin: 22; Layout.rightMargin: 22; Layout.topMargin: 22; spacing: 6
+            Text { text: "Target Type"; font.pixelSize: 12; color: ink ;font.family: "Segoe UI"}
+            RowLayout { Layout.fillWidth: true; spacing: 16
 
                 RadioButton {
                     id: tensileChoice
@@ -34,7 +35,7 @@ Popup {
                     text: "Tensile Test"
                     checked: true
                     implicitHeight: 28
-                    implicitWidth: 105
+                    implicitWidth: 92
                     spacing: 7
                     padding: 0
                     font.family: "Segoe UI"
@@ -288,15 +289,18 @@ Popup {
 
             Item { Layout.fillHeight: true }
         }
-        Rectangle { Layout.fillWidth: true; Layout.preferredHeight: 68; color: "white"; border.color: edge; border.width: 1
-            RowLayout { anchors.fill: parent; anchors.margins: 12
+        Rectangle { Layout.fillWidth: true; Layout.preferredHeight: 58; color: "transparent"
+            Rectangle { anchors.top: parent.top; width: parent.width; height: 1; color: edge }
+            RowLayout { anchors.fill: parent; anchors.margins: 10
                 Item { Layout.fillWidth: true }
                 FlatButton {
                     text: "Start Setup"
                     font.family: "Segoe UI"
                     primary: true
-                    implicitWidth: 145
-                    implicitHeight: 48
+                    Layout.preferredWidth: 105
+                    Layout.preferredHeight: 38
+                    implicitWidth: 105
+                    implicitHeight: 38
                     enabled: setupName.text.trim().length > 0
                     onClicked: {
                          console.log("Start Setup clicked")
