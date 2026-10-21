@@ -27,149 +27,84 @@ import QtQuick.Shapes
                         Rectangle { anchors.bottom: parent.bottom; width: parent.width; height: 1; color: edge }
                     }
                     Item {
-                        id: canvas; Layout.fillWidth: true; Layout.fillHeight: true; clip: true
-                        // Shared orbit coordinates for line, dots and cards.
-                        function arcX(t) { return 70 + 600 * t * (1 - t) }
-                        function arcY(t) { return height * t }
-
-                        Rectangle {
-                            anchors.fill: parent
-                            color: "#FFFFFF"
-                        }
-
-                        // Background fills between the existing arcs.
-                        // These use the same curve geometry.
-                        // They do not modify the actual arc lines.
-                        Shape {
-                            id: orbitBandBackground
-                            anchors.fill: parent
-
-                            // Existing first-to-second and second-to-third offsets.
-                            // Change these only if your current arc positions differ.
-                            property real secondOffset: 120
-                            property real thirdOffset: 240
-
-                            // Background between FIRST and SECOND arc
-                            ShapePath {
-                                strokeColor: "transparent"
-                                fillColor: "#F5FAFA"
-
-                                startX: 70
-                                startY: 0
-
-                                PathQuad {
-                                    x: 70
-                                    y: canvas.height
-                                    controlX: 370
-                                    controlY: canvas.height / 2
-                                }
-
-                                PathLine {
-                                    x: 70 + orbitBandBackground.secondOffset
-                                    y: canvas.height
-                                }
-
-                                PathQuad {
-                                    x: 70 + orbitBandBackground.secondOffset
-                                    y: 0
-                                    controlX: 370 + orbitBandBackground.secondOffset
-                                    controlY: canvas.height / 2
-                                }
-
-                                PathLine {
-                                    x: 70
-                                    y: 0
+                        id: setupCanvas
+                        objectName: "rotatorCanvas"
+                        Layout.fillWidth: true; Layout.fillHeight: true; clip: true
+                        // Reserve separate regions for the orbit and machine at every window size.
+                        readonly property real orbitWidth: Math.min(560, width * 0.65)
+                        readonly property real imageGap: 18
+                        Rectangle { anchors.fill: parent; color: "white" }
+                        Item {
+                            id: canvas
+                            objectName: "sensorOrbit"
+                            width: setupCanvas.orbitWidth
+                            height: setupCanvas.height
+                            readonly property real unit: Math.min(1, width / 560)
+                            // Recalculate a circular segment for the full available height.
+                            // Its endpoints and apex retain their horizontal clearance.
+                            readonly property real sagitta: 150 * unit
+                            readonly property real radius: (height * height / 4 + sagitta * sagitta) / (2 * sagitta)
+                            readonly property real centerX: 220 * unit - radius
+                            function ringRadius(ring) {
+                                return radius + [0, 72, 210][ring || 0] * unit
+                            }
+                            function arcY(t) { return height * t }
+                            function arcX(t, ring) {
+                                var r = ringRadius(ring)
+                                var dy = arcY(t) - height / 2
+                                return centerX + Math.sqrt(Math.max(0, r * r - dy * dy))
+                            }
+                            // Concentric circular bands share their geometry with the card path.
+                            Repeater {
+                                model: 2
+                                delegate: Shape {
+                                    required property int index
+                                    anchors.fill: parent
+                                    ShapePath {
+                                        strokeColor: "transparent"
+                                        fillColor: index === 0 ? "#F5FAFA" : "#FAFDFD"
+                                        startX: canvas.arcX(0, index)
+                                        startY: 0
+                                        PathArc {
+                                            x: canvas.arcX(1, index); y: canvas.height
+                                            radiusX: canvas.ringRadius(index)
+                                            radiusY: radiusX
+                                            direction: PathArc.Clockwise
+                                        }
+                                        PathLine { x: canvas.arcX(1, index + 1); y: canvas.height }
+                                        PathArc {
+                                            x: canvas.arcX(0, index + 1); y: 0
+                                            radiusX: canvas.ringRadius(index + 1)
+                                            radiusY: radiusX
+                                            direction: PathArc.Counterclockwise
+                                        }
+                                        PathLine { x: canvas.arcX(0, index); y: 0 }
+                                    }
                                 }
                             }
-
-                            // Background between SECOND and THIRD arc
-                            ShapePath {
-                                strokeColor: "transparent"
-                                fillColor: "#FAFDFD"
-
-                                startX: 70 + orbitBandBackground.secondOffset
-                                startY: 0
-
-                                PathQuad {
-                                    x: 70 + orbitBandBackground.secondOffset
-                                    y: canvas.height
-                                    controlX: 370 + orbitBandBackground.secondOffset
-                                    controlY: canvas.height / 2
-                                }
-
-                                PathLine {
-                                    x: 70 + orbitBandBackground.thirdOffset
-                                    y: canvas.height
-                                }
-
-                                PathQuad {
-                                    x: 70 + orbitBandBackground.thirdOffset
-                                    y: 0
-                                    controlX: 370 + orbitBandBackground.thirdOffset
-                                    controlY: canvas.height / 2
-                                }
-
-                                PathLine {
-                                    x: 70 + orbitBandBackground.secondOffset
-                                    y: 0
+                            Repeater {
+                                model: 3
+                                delegate: Shape {
+                                    required property int index
+                                    anchors.fill: parent
+                                    z: 2
+                                    ShapePath {
+                                        strokeColor: index === 0 ? "#1A8080" : "#CCE9E9"
+                                        strokeWidth: index === 0 ? 2 : 1.4
+                                        fillColor: "transparent"
+                                        startX: canvas.arcX(0, index); startY: 0
+                                        PathArc {
+                                            x: canvas.arcX(1, index); y: canvas.height
+                                            radiusX: canvas.ringRadius(index)
+                                            radiusY: radiusX
+                                            direction: PathArc.Clockwise
+                                        }
+                                    }
                                 }
                             }
-                        }
-
-
-
-                        // Restored outlines, drawn above the background bands.
-                        // Coordinates are identical to orbitBandBackground.
-                        Shape {
-                            id: orbitShape
-                            anchors.fill: parent
-                            z: 2
-
-                            ShapePath {
-                                strokeColor: "#1A8080"
-                                strokeWidth: 2
-                                fillColor: "transparent"
-                                startX: 70
-                                startY: 0
-                                PathQuad {
-                                    x: 70
-                                    y: canvas.height
-                                    controlX: 370
-                                    controlY: canvas.height / 2
-                                }
-                            }
-
-                            ShapePath {
-                                strokeColor: "#CCE9E9"
-                                strokeWidth: 1.4
-                                fillColor: "transparent"
-                                startX: 70 + orbitBandBackground.secondOffset
-                                startY: 0
-                                PathQuad {
-                                    x: 70 + orbitBandBackground.secondOffset
-                                    y: canvas.height
-                                    controlX: 370 + orbitBandBackground.secondOffset
-                                    controlY: canvas.height / 2
-                                }
-                            }
-
-                            ShapePath {
-                                strokeColor: "#CCE9E9"
-                                strokeWidth: 1.4
-                                fillColor: "transparent"
-                                startX: 70 + orbitBandBackground.thirdOffset
-                                startY: 0
-                                PathQuad {
-                                    x: 70 + orbitBandBackground.thirdOffset
-                                    y: canvas.height
-                                    controlX: 370 + orbitBandBackground.thirdOffset
-                                    controlY: canvas.height / 2
-                                }
-                            }
-                        }
-
                         Item {
                             id: selectedOrbitDot
+                            scale: canvas.unit
                             width: 34
                             height: 34
                             x: canvas.arcX(0.5) - width / 2
@@ -216,17 +151,18 @@ import QtQuick.Shapes
                             }
                         }
 
-                        Rectangle { visible: app.sensorIndex>0; x: canvas.arcX(0.2) - width / 2; y: canvas.arcY(0.2) - height / 2; width: 12; height: 12; radius: 6; color: "#1A8080"; z: 20 }
-                        Rectangle { visible: app.sensorIndex<2; x: canvas.arcX(0.8) - width / 2; y: canvas.arcY(0.8) - height / 2; width: 12; height: 12; radius: 6; color: "#1A8080"; z: 20 }
+                        Rectangle { visible: app.sensorIndex>0; x: canvas.arcX(0.2) - width / 2; y: canvas.arcY(0.2) - height / 2; width: 12 * canvas.unit; height: width; radius: width / 2; color: "#1A8080"; z: 20 }
+                        Rectangle { visible: app.sensorIndex<2; x: canvas.arcX(0.8) - width / 2; y: canvas.arcY(0.8) - height / 2; width: 12 * canvas.unit; height: width; radius: width / 2; color: "#1A8080"; z: 20 }
                         Rectangle {
-                            x: 11; y: 12; width: 61; height: canvas.height-24; radius: 12; color: "#eef0f2"
+                            objectName: "rotatorSectionNavigation"
+                            x: 11 * canvas.unit; y: 12; width: 61 * canvas.unit; height: canvas.height-24; radius: 12; color: "#eef0f2"
                             ColumnLayout { anchors.fill: parent; anchors.margins: 5; spacing: 0
                                 Repeater { model: app.sections
                                     delegate: Rectangle {
                                         required property string modelData
                                         Layout.fillWidth: true; Layout.fillHeight: true; radius: 8
                                         color: app.activeSection === modelData ? "#cdecee" : "transparent"
-                                        Text { anchors.centerIn: parent; rotation: -90; text: modelData; font.pixelSize: 12; font.bold: true; color: app.activeSection === modelData ? "#173c3e" : "#646b70" }
+                                        Text { anchors.centerIn: parent; rotation: -90; text: modelData; font.pixelSize: 12 * Math.max(0.8, canvas.unit); font.bold: true; color: app.activeSection === modelData ? "#173c3e" : "#646b70" }
                                         Rectangle { visible: app.activeSection === modelData; anchors.right: parent.right; anchors.verticalCenter: parent.verticalCenter; width: 2; height: parent.height-18; color: "#00898c" }
                                         MouseArea {
                                             anchors.fill: parent
@@ -250,23 +186,20 @@ import QtQuick.Shapes
                                 property real curveProgress: targetProgress
                                 property bool selected: offset === 0
 
-                                // Match the first painted PathQuad:
-                                // start (70,0), control (370,H/2), end (70,H).
-                                // The whole card travels along the curved path.
+                                // The card and its dot use the same circular orbit.
                                 property real orbitX: canvas.arcX(curveProgress)
                                 property real orbitY: canvas.arcY(curveProgress)
 
                                 // Keep every card fully to the RIGHT of the teal arc, as in the reference.
-                                x: orbitX + 24
+                                x: orbitX + 24 * canvas.unit
                                 y: orbitY - height / 2
 
-                                // Reference proportions: top ends before the third arc;
-                                // bottom extends just 14 px past it (at the card centre).
-                                // The card role changes smoothly with sensorIndex.
+                                // Scale cards uniformly while the circle fits the full panel height.
                                 property real referenceWidth: offset < 0 ? 205 : (offset > 0 ? 230 : 267)
                                 property real referenceHeight: offset < 0 ? 86 : (offset > 0 ? 99 : 104)
-                                width: Math.min(referenceWidth, Math.max(120, canvas.width - x - 8))
-                                height: referenceHeight
+                                objectName: "sensorCard" + sensorCard.index
+                                width: referenceWidth * canvas.unit
+                                height: referenceHeight * canvas.unit
                                 radius: 6
                                 color: "white"
                                 border.width: selected ? 2 : 1
@@ -299,8 +232,11 @@ import QtQuick.Shapes
                                     ColorAnimation { duration: 200 }
                                 }
                                 RowLayout {
-                                    anchors.fill: parent
-                                    anchors.margins: 9
+                                    x: 9 * canvas.unit; y: 9 * canvas.unit
+                                    width: sensorCard.referenceWidth - 18
+                                    height: sensorCard.referenceHeight - 18
+                                    scale: canvas.unit
+                                    transformOrigin: Item.TopLeft
                                     spacing: 8
                                     // Dim content, not the white card surface.
                                     opacity: sensorCard.selected ? 1.0 : 0.65
@@ -344,16 +280,15 @@ import QtQuick.Shapes
                                 MouseArea { anchors.fill: parent; enabled: sensorCard.opacity > 0.10; cursorShape: Qt.PointingHandCursor; onClicked: { if (index !== app.sensorIndex) app.chooseSensor(index) } }
                             }
                         }
+                        }
                         MachinePicture {
                             id: machineImage
-
-                            // Enlarged display area: PreserveAspectFit keeps the whole
-                            // machine and any shadow present in the source PNG visible.
-                            property real imageScale: app.uiScale
-                            width: Math.min(canvas.width * 0.48, 430 * imageScale)
-                            height: Math.min(canvas.height * 0.90, 570 * imageScale)
-                            x: canvas.width - width - 14
-                            y: (canvas.height - height) / 2
+                            objectName: "rotatorMachineImage"
+                            // PreserveAspectFit keeps the whole machine inside its reserved region.
+                            width: Math.max(0, setupCanvas.width - setupCanvas.orbitWidth - setupCanvas.imageGap - 14)
+                            height: setupCanvas.height * 0.94
+                            x: setupCanvas.orbitWidth + setupCanvas.imageGap
+                            y: (setupCanvas.height - height) / 2
                             sourcePath: "images/testing-machine.png"
                         }
                     }
@@ -665,7 +600,6 @@ import QtQuick.Shapes
                                 font.family: "Segoe UI"
                                 font.pixelSize: 12
                                 font.weight: Font.DemiBold
-                                onClicked: app.previousSection()
                             }
 
 
@@ -677,7 +611,6 @@ import QtQuick.Shapes
                                 font.family: "Segoe UI"
                                 font.pixelSize: 12
                                 font.weight: Font.DemiBold
-                                onClicked: app.nextSection()
                             }
 
                         }

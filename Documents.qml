@@ -13,6 +13,17 @@ Item {
     onPageSizeChanged: page = 1
     property var selected: [0, 2, 4]
     property var chips: ["Advartest_KK_…", "Brakes India Li…", "Advartest_KK_…", "Brakes India Li…", "Brakes India Li…", "Steel", "Glass", "Aluminium", "Last week"]
+    readonly property int totalRecords: 35
+    // Demo data: the nine initial criteria exclude fifteen of the records.
+    // Removing criteria progressively restores those records to the table.
+    readonly property int resultCount: Math.max(0, totalRecords - Math.ceil(chips.length * 15 / 9))
+    readonly property int pageCount: Math.max(1, Math.ceil(resultCount / pageSize))
+    readonly property int visibleRowCount: Math.max(0, Math.min(pageSize, resultCount - (page - 1) * pageSize))
+    readonly property bool allResultsSelected: resultCount > 0 && selected.length === resultCount
+    onResultCountChanged: {
+        page = 1
+        selected = (selected || []).filter(function(number) { return number < resultCount })
+    }
     property var savedCriteria: []
     signal analyseRequested(var specimens)
     function analyseSelection() {
@@ -48,7 +59,7 @@ Item {
     property var columnOrder: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     property int sortColumn: -1
     property bool sortAscending: true
-    property var rowOrder: orderedRows(sortColumn, sortAscending)
+    property var rowOrder: orderedRows(sortColumn, sortAscending, resultCount)
     property int draggingColumn: -1
     property int dropColumn: -1
     function sortBy(column) {
@@ -67,9 +78,9 @@ Item {
         }
         return value
     }
-    function orderedRows(column, ascending) {
+    function orderedRows(column, ascending, count) {
         var rows = []
-        for (var i = 0; i < 35; ++i) rows.push(i)
+        for (var i = 0; i < count; ++i) rows.push(i)
         if (column < 0) return rows
         rows.sort(function(a, b) {
             var av = sortValue(a, column), bv = sortValue(b, column)
@@ -213,9 +224,6 @@ Item {
             source: iconButton.source; sourceSize.width: 40; sourceSize.height: 40
             fillMode: Image.PreserveAspectFit
         }
-        ToolTip.visible: hovered
-        ToolTip.delay: 700
-        ToolTip.text: description
     }
     component SelectionBox: CheckBox {
         id: selectionBox
@@ -290,7 +298,7 @@ Item {
                             }
                         }
                     }
-                    Action { text: "Show results"; primary: true; enabled: root.chips.length > 0; onClicked: { root.page = 1; message.text = "35 specimens found for the selected criteria." } }
+                    Action { text: "Show results"; primary: true; onClicked: { root.page = 1; message.text = "" } }
                     Action { text: "Save criteria"; onClicked: { root.savedCriteria = root.savedCriteria.concat(["Criteria " + (root.savedCriteria.length + 1)]); message.text = "Current criteria saved for this session." } }
                 }
                 Flow {
@@ -323,12 +331,12 @@ Item {
                     Column {
                         spacing: 2
                         Text { text: "Specimens"; font.pixelSize: 20; font.weight: Font.DemiBold; color: "#2c3033" }
-                        Text { text: "35 found based on search criteria"; font.pixelSize: 12; color: "#343b43" }
+                        Text { text: root.resultCount + " found based on search criteria"; font.pixelSize: 12; color: "#343b43" }
                     }
                     Item { Layout.fillWidth: true }
-                    TableIconButton { source: "icons/documents-grid.svg"; description: "Specimen view"; onClicked: message.text = "Specimen table view selected." }
-                    TableIconButton { source: "icons/documents-sliders.svg"; description: "Column settings"; onClicked: columnPopup.open() }
-                    Action { text: "Export PDF"; onClicked: message.text = "PDF export requires a connected document service (demo)." }
+                    TableIconButton { source: "icons/documents-grid.svg"; description: "Specimen view" }
+                    TableIconButton { source: "icons/documents-sliders.svg"; description: "Column settings" }
+                    Action { text: "Export PDF" }
                     Action { objectName: "analyseButton"; text: "Analyse (" + root.selected.length + ")"; primary: true; enabled: root.selected.length > 0; onClicked: root.analyseSelection() }
                 }
                 Rectangle {
@@ -355,7 +363,7 @@ Item {
                                 Row {
                                     id: headerRow
                                     anchors.fill: parent
-                                    SelectionBox { width: 38; height: 36; checked: root.selected.length > 0; onClicked: { var all = []; if (root.selected.length !== 35) for (var i = 0; i < 35; i++) all.push(i); root.selected = all } }
+                                    SelectionBox { objectName: "selectAllSpecimens"; width: 38; height: 36; enabled: root.resultCount > 0; checked: root.allResultsSelected; onClicked: root.selected = root.allResultsSelected ? [] : root.rowOrder.slice() }
                                     Repeater {
                                         model: root.columnOrder
                                         delegate: Rectangle {
@@ -410,7 +418,7 @@ Item {
                             }
                             Repeater {
                                 objectName: "specimenRows"
-                                model: Math.max(0, Math.min(root.pageSize, 35 - (root.page - 1) * root.pageSize))
+                                model: root.visibleRowCount
                                 delegate: Rectangle {
                                     id: specimenRow
                                     required property int index
@@ -442,16 +450,16 @@ Item {
                     objectName: "specimenPagination"
                     Layout.fillWidth: true; spacing: 3
                     Layout.preferredHeight: 32
-                    Text { text: "Showing " + Math.min(root.pageSize, 35 - (root.page - 1) * root.pageSize) + " of 35 active test probes"; font.pixelSize: 10; color: "#52636d" }
+                    Text { text: "Showing " + root.visibleRowCount + " of " + root.resultCount + " active test probes"; font.pixelSize: 10; color: "#52636d" }
                     Item { Layout.fillWidth: true }
                     PageButton { text: "\u00ab"; enabled: root.page > 1; onClicked: root.page = 1 }
                     PageButton { text: "\u2039"; enabled: root.page > 1; onClicked: root.page-- }
                     Repeater {
-                        model: Math.ceil(35 / root.pageSize)
+                        model: root.pageCount
                         delegate: PageButton { required property int index; text: String(index + 1); current: root.page === index + 1; onClicked: root.page = index + 1 }
                     }
-                    PageButton { text: "\u203a"; enabled: root.page < Math.ceil(35 / root.pageSize); onClicked: root.page++ }
-                    PageButton { text: "\u00bb"; enabled: root.page < Math.ceil(35 / root.pageSize); onClicked: root.page = Math.ceil(35 / root.pageSize) }
+                    PageButton { text: "\u203a"; enabled: root.page < root.pageCount; onClicked: root.page++ }
+                    PageButton { text: "\u00bb"; enabled: root.page < root.pageCount; onClicked: root.page = root.pageCount }
                     StyledComboBox {
                         id: pageSizeSelector
                         popupAbove: true

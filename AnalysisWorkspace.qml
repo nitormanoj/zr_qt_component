@@ -83,35 +83,51 @@ Rectangle {
                     }
                 }
                 RowLayout {
+                    id: chartRow
                     Layout.fillWidth: true; spacing: 30
-                    Layout.preferredHeight: Math.max(360, Math.min(520, workspace.height*0.65))
+                    readonly property real chartHeight: Math.max(360, Math.min(520, workspace.height*0.65))
+                    Layout.preferredHeight: chartHeight
+                    Layout.minimumHeight: chartHeight
+                    Layout.maximumHeight: chartHeight
                     ColumnLayout {
                         Layout.preferredWidth: 168; Layout.minimumWidth: 168; Layout.maximumWidth: 168
-                        Layout.alignment: Qt.AlignTop; spacing: 18
+                        Layout.fillHeight: true; spacing: 18
                         Column {
                             spacing: 2
                             Text { text: "Specimens"; font.family: "Segoe UI"; font.pixelSize: 12; font.weight: Font.DemiBold; color: "#292d31" }
                             Text { text: workspace.specimens.length + " Selected"; font.family: "Segoe UI"; font.pixelSize: 11; color: "#626975" }
                         }
                         Rectangle {
-                            Layout.fillWidth: true; implicitHeight: legendColumn.height
+                            Layout.fillWidth: true
+                            Layout.fillHeight: true
+                            Layout.minimumHeight: 0
+                            Layout.preferredHeight: 32 + workspace.specimens.length * 31
+                            Layout.maximumHeight: 32 + workspace.specimens.length * 31
                             color: "white"; radius: 5; border.color: "#d2d8e1"; clip: true
-                            Column {
-                                id: legendColumn
-                                width: parent.width
                                 Rectangle {
+                                    id: legendHeader
+                                    anchors.top: parent.top
                                     width: parent.width; height: 32; color: "#e9ebed"
                                     Row { anchors.fill: parent; leftPadding: 22
                                         Text { width: 50; height: 32; text: "No."; verticalAlignment: Text.AlignVCenter; font.family: "Segoe UI"; font.pixelSize: 10; color: "#405574" }
                                         Text { height: 32; text: "Name"; verticalAlignment: Text.AlignVCenter; font.family: "Segoe UI"; font.pixelSize: 10; color: "#405574" }
                                     }
                                 }
-                                Repeater {
+                                ListView {
+                                    id: specimenLegend
+                                    objectName: "analysisSpecimenLegend"
+                                    anchors.top: legendHeader.bottom
+                                    anchors.left: parent.left
+                                    anchors.right: parent.right
+                                    anchors.bottom: parent.bottom
+                                    clip: true
+                                    boundsBehavior: Flickable.StopAtBounds
+                                    ScrollBar.vertical: ScrollBar {}
                                     model: workspace.specimens
                                     delegate: Rectangle {
                                         id: legendRow
                                         required property var modelData
-                                        width: legendColumn.width; height: 31; color: "white"
+                                        width: specimenLegend.width; height: 31; color: "white"
                                         Row {
                                             anchors.fill: parent; anchors.leftMargin: 14; spacing: 10
                                             Rectangle { anchors.verticalCenter: parent.verticalCenter; width: 10; height: 10; radius: 5; color: legendRow.modelData.color }
@@ -121,7 +137,6 @@ Rectangle {
                                         Rectangle { anchors.bottom: parent.bottom; height: 1; width: parent.width; color: "#e6ebf1" }
                                     }
                                 }
-                            }
                         }
                         Item { Layout.fillHeight: true }
                     }

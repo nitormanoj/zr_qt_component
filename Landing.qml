@@ -44,7 +44,7 @@ Rectangle {
                             Text { Layout.fillWidth: true; Layout.preferredHeight: 42; text: name; wrapMode: Text.WordWrap; horizontalAlignment: Text.AlignHCenter; verticalAlignment: Text.AlignVCenter; font.pixelSize: 12; color: "#171717" }
                             Text { Layout.fillWidth: true; text: "Modified: " + modified; horizontalAlignment: Text.AlignHCenter; font.pixelSize: 9; color: "#808790" }
                         }
-                        MouseArea { id: cardArea; anchors.fill: parent; hoverEnabled: true; cursorShape: Qt.PointingHandCursor; onClicked: { app.testingLabel = name; app.activeSection = "Strain"; app.screen = "setup" } }
+                        MouseArea { id: cardArea; anchors.fill: parent; hoverEnabled: true }
                     }
                 }
             }

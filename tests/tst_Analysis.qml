@@ -8,6 +8,32 @@ Item {
     TestCase {
         name: "AnalysisNavigation"
         when: windowShown
+        function test_selectAllKeepsChartSize() {
+            app.screen = "documents"
+            var documents = findChild(app, "documentsScreen")
+            documents.clearFilters()
+            documents.selected = [0, 2, 4]
+            documents.analyseSelection()
+            var workspace = findChild(app, "analysisWorkspace")
+            var graph = findChild(workspace, "analysisCurveGraph")
+            var legend = findChild(workspace, "analysisSpecimenLegend")
+            tryVerify(function() { return graph.height >= 360 })
+            var chartHeight = graph.height
+            app.screen = "documents"
+            mouseClick(findChild(documents, "selectAllSpecimens"))
+            compare(documents.selected.length, 35)
+            mouseClick(findChild(documents, "analyseButton"))
+            compare(workspace.specimens.length, 35)
+            tryCompare(graph, "height", chartHeight)
+            tryCompare(legend, "count", 35)
+            verify(legend.height < legend.contentHeight)
+            verify(legend.height <= graph.height)
+            legend.positionViewAtEnd()
+            tryVerify(function() { return legend.atYEnd })
+            verify(legend.contentY > 0)
+            compare(graph.specimens[34].number, 35)
+            mouseClick(findChild(workspace, "analysisBackButton"))
+        }
         function test_analyseAndBack() {
             app.screen = "documents"
             app.activeMenu = "documents"

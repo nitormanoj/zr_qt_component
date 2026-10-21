@@ -28,6 +28,7 @@ qt_add_qml_module(appQTDemoApp
         QML_FILES SetupDialog.qml FlatButton.qml HeaderNav.qml Landing.qml LeftNav.qml MachinePicture.qml NavIcon.qml Rotator.qml
         RESOURCES icons/header-bell.svg icons/header-grid.svg icons/header-settings.svg icons/header-shield-off.svg
         RESOURCES icons/sidebar-toggle.svg
+        RESOURCES images/card01.png images/card03.png
         RESOURCES icons/documents-grid.svg icons/documents-sliders.svg
         RESOURCES icons/filter-saved.svg icons/filter-program.svg icons/filter-material.svg icons/filter-job.svg icons/filter-date.svg
 )
