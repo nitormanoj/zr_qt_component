@@ -6,8 +6,8 @@ ApplicationWindow {
     id: appWindow
     width: 1440
     height: 705
-    minimumWidth: 900
-    minimumHeight: 610
+    minimumWidth: 0
+    minimumHeight: 0
     property bool compactMode: width < 1150
     property bool smallHeight: height < 750
     property real uiScale: Math.min(1,Math.max(0.75, width / 1440))
