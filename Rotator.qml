@@ -3,13 +3,19 @@ import QtQuick.Controls
 import QtQuick.Layouts
 import QtQuick.Shapes
 
-        RowLayout {
+ScrollView {
     id: rotator
     property var app: null
     property color ink: "#202a31"
     property color edge: "#d9dee2"
     property alias gaugeValue: gauge.text
     property alias fieldViewValue: fieldView.text
+    readonly property bool stacked: availableWidth < 1050
+    clip: true
+    contentWidth: Math.max(360, availableWidth)
+    contentHeight: setupLayout.height
+    ScrollBar.horizontal.policy: ScrollBar.AsNeeded
+    ScrollBar.vertical.policy: ScrollBar.AsNeeded
     onVisibleChanged: {
         if (!visible) strainConfigDrawer.close()
     }
@@ -19,17 +25,26 @@ import QtQuick.Shapes
         function onActiveMenuChanged() { strainConfigDrawer.close() }
         function onActiveSectionChanged() { strainConfigDrawer.close() }
     }
-            anchors.fill: parent; anchors.rightMargin: 15; spacing: 10;
+            anchors.fill: parent; anchors.rightMargin: 15
+    GridLayout {
+        id: setupLayout
+        width: rotator.contentWidth
+        height: rotator.stacked ? 1559 : Math.max(610, rotator.availableHeight)
+        columns: rotator.stacked ? 1 : 2
+        columnSpacing: 10
+        rowSpacing: 10
             Rectangle {
+                Layout.minimumWidth: 0
+                Layout.preferredHeight: rotator.stacked ? 899 : 610
                 Layout.fillWidth: true; Layout.fillHeight: true; color: "white"; radius: 12; clip: true
                 ColumnLayout {
                     anchors.fill: parent; spacing: 0
                     Rectangle {
                         Layout.fillWidth: true; Layout.preferredHeight: 59; color: "white"
                         RowLayout { anchors.fill: parent; anchors.leftMargin: 17; anchors.rightMargin: 17
-                            Text { text: "New Test Setup - " + app.targetType; font.pixelSize: 16; font.bold: true; color: ink ; font.family: "Segoe UI"}
+                            Text { text: "New Test Setup - " + app.targetType; font.pixelSize: 16; font.bold: true; color: ink ; font.family: "Segoe UI"; Layout.fillWidth: true; elide: Text.ElideRight }
                             Item { Layout.fillWidth: true }
-                            Text { text: "Add to a testing method"; font.pixelSize: 12; color: "#007b81" ; font.family: "Segoe UI"
+                            Text { visible: setupCanvas.width >= 500; text: "Add to a testing method"; font.pixelSize: 12; color: "#007b81" ; font.family: "Segoe UI"
                                 MouseArea { anchors.fill: parent; cursorShape: Qt.PointingHandCursor }
                             }
                         }
@@ -40,14 +55,14 @@ import QtQuick.Shapes
                         objectName: "rotatorCanvas"
                         Layout.fillWidth: true; Layout.fillHeight: true; clip: true
                         // Reserve separate regions for the orbit and machine at every window size.
-                        readonly property real orbitWidth: Math.min(560, width * 0.65)
+                        readonly property real orbitWidth: rotator.stacked ? Math.min(560, width) : Math.min(560, width * 0.65)
                         readonly property real imageGap: 18
                         Rectangle { anchors.fill: parent; color: "white" }
                         Item {
                             id: canvas
                             objectName: "sensorOrbit"
                             width: setupCanvas.orbitWidth
-                            height: setupCanvas.height
+                            height: rotator.stacked ? 500 : setupCanvas.height
                             readonly property real unit: Math.min(1, width / 560)
                             // Recalculate a circular segment for the full available height.
                             // Its endpoints and apex retain their horizontal clearance.
@@ -295,10 +310,10 @@ import QtQuick.Shapes
                             id: machineImage
                             objectName: "rotatorMachineImage"
                             // PreserveAspectFit keeps the whole machine inside its reserved region.
-                            width: Math.max(0, setupCanvas.width - setupCanvas.orbitWidth - setupCanvas.imageGap)
-                            height: setupCanvas.height
-                            x: setupCanvas.orbitWidth + setupCanvas.imageGap
-                            y: (setupCanvas.height - height) / 2
+                            width: rotator.stacked ? Math.min(360, setupCanvas.width - 32) : Math.max(0, setupCanvas.width - setupCanvas.orbitWidth - setupCanvas.imageGap)
+                            height: rotator.stacked ? 322 : setupCanvas.height
+                            x: rotator.stacked ? (setupCanvas.width - width) / 2 : setupCanvas.orbitWidth + setupCanvas.imageGap
+                            y: rotator.stacked ? canvas.height + setupCanvas.imageGap : (setupCanvas.height - height) / 2
                             sourcePath: "images/testing-machine.png"
                         }
                     }
@@ -306,7 +321,12 @@ import QtQuick.Shapes
             }
             Rectangle {
                 id: strainPanel
-                Layout.preferredWidth: Math.min(350, Math.max(280, app.width*0.25)); Layout.fillHeight: true; radius: 12; color: "white"; clip: true
+                objectName: "strainPanel"
+                Layout.fillWidth: rotator.stacked
+                Layout.minimumWidth: rotator.stacked ? 0 : 280
+                Layout.preferredWidth: rotator.stacked ? setupLayout.width : Math.min(350, Math.max(280, app.width*0.25))
+                Layout.preferredHeight: rotator.stacked ? 650 : 610
+                Layout.fillHeight: true; radius: 12; color: "white"; clip: true
                 ColumnLayout { anchors.fill: parent; spacing: 0
                     Rectangle { Layout.fillWidth: true; Layout.preferredHeight: 59; color: "white"
                         RowLayout { anchors.fill: parent; anchors.leftMargin: 17; anchors.rightMargin: 16
@@ -628,6 +648,7 @@ import QtQuick.Shapes
                 }
             }
 
+    }
     // Replace only the existing right-side Strain panel content.
     // The popup is non-modal, so it does not darken or block the rest of the UI.
     Popup {
