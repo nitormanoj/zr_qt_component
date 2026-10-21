@@ -10,6 +10,15 @@ import QtQuick.Shapes
     property color edge: "#d9dee2"
     property alias gaugeValue: gauge.text
     property alias fieldViewValue: fieldView.text
+    onVisibleChanged: {
+        if (!visible) strainConfigDrawer.close()
+    }
+    Connections {
+        target: rotator.app
+        function onScreenChanged() { strainConfigDrawer.close() }
+        function onActiveMenuChanged() { strainConfigDrawer.close() }
+        function onActiveSectionChanged() { strainConfigDrawer.close() }
+    }
             anchors.fill: parent; anchors.rightMargin: 15; spacing: 10;
             Rectangle {
                 Layout.fillWidth: true; Layout.fillHeight: true; color: "white"; radius: 12; clip: true
@@ -623,6 +632,7 @@ import QtQuick.Shapes
     // The popup is non-modal, so it does not darken or block the rest of the UI.
     Popup {
         id: strainConfigDrawer
+        objectName: "strainConfigDrawer"
         parent: strainPanel
         x: 0
         y: 0

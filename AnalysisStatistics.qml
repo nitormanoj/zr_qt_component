@@ -7,13 +7,12 @@ Rectangle {
     property var specimens: []
     readonly property var headings: ["#", "Probe Name", "Begin of Young’s…", "m", "(C/N)^1/3", "Date and Time", "m", "Bruch kN", "Appl. Eng.", "Break N"]
     readonly property var weights: [0.05,0.11,0.11,0.05,0.08,0.14,0.05,0.15,0.16,0.10]
-    readonly property var labels: ["j", "n", "LAL", "min", "max"]
-    implicitHeight: 185
+    implicitHeight: 34 + specimens.length * 30
     radius: 5; color: "white"; border.color: "#d2d8e1"; clip: true
     function value(row, col) {
-        if(col===0) return labels[row]
-        if(!specimens.length) return "-"
-        var specimen=specimens[row % specimens.length]
+        if(row < 0 || row >= specimens.length) return "-"
+        var specimen=specimens[row]
+        if(col===0) return String(specimen.number)
         if(col===1) return specimen.name
         if(col===5) return specimen.date
         if(col===7) return specimen.force
@@ -24,7 +23,7 @@ Rectangle {
     Flickable {
         id: viewport
         anchors.fill: parent; anchors.margins: 1
-        contentWidth: Math.max(width, 1080); contentHeight: 184; clip: true
+        contentWidth: Math.max(width, 1080); contentHeight: 32 + table.specimens.length * 30; clip: true
         ScrollBar.horizontal: ScrollBar {}
         Column {
             width: viewport.contentWidth
@@ -45,7 +44,7 @@ Rectangle {
                 }
             }
             Repeater {
-                model: 5
+                model: table.specimens.length
                 delegate: Item {
                     id: statisticRow
                     required property int index

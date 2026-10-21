@@ -32,6 +32,10 @@ Item {
             tryVerify(function() { return legend.atYEnd })
             verify(legend.contentY > 0)
             compare(graph.specimens[34].number, 35)
+            var statistics = findChild(workspace, "analysisStatistics")
+            compare(statistics.specimens.length, 35)
+            compare(statistics.value(34, 0), "35")
+            compare(statistics.value(34, 1), documents.cell(34, 1))
             mouseClick(findChild(workspace, "analysisBackButton"))
         }
         function test_analyseAndBack() {
@@ -74,6 +78,9 @@ Item {
             compare(graph.showMarkers, false)
             var statistics = findChild(workspace, "analysisStatistics")
             compare(statistics.value(0, 1), "Probe 10.1.1")
+            compare(statistics.value(4, 0), "10")
+            compare(statistics.value(4, 7), documents.cell(9, 7))
+            compare(statistics.value(5, 1), "-")
             workspace.activeTab = 1
             var insights = findChild(workspace, "analysisInsights")
             verify(insights.visible)
@@ -85,6 +92,24 @@ Item {
             mouseClick(findChild(workspace, "analysisBackButton"))
             compare(app.screen, "documents")
             compare(documents.selected.join(","), "0,2,4,8,9")
+        }
+        function test_statisticsFollowsSelection() {
+            var documents = findChild(app, "documentsScreen")
+            var statistics = findChild(app, "analysisStatistics")
+            app.screen = "documents"
+            documents.selected = [1, 7]
+            documents.analyseSelection()
+            compare(statistics.specimens.length, 2)
+            compare(statistics.implicitHeight, 94)
+            compare(statistics.value(0, 0), "2")
+            compare(statistics.value(1, 0), "8")
+            compare(statistics.value(1, 1), documents.cell(7, 1))
+            compare(statistics.value(1, 9), documents.cell(7, 9))
+            compare(statistics.value(2, 1), "-")
+            app.analysisSpecimens = []
+            compare(statistics.specimens.length, 0)
+            compare(statistics.implicitHeight, 34)
+            compare(statistics.value(0, 0), "-")
         }
     }
 }
