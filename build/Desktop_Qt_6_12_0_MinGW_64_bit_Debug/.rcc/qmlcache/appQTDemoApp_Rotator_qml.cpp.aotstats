@@ -86,24 +86,16 @@
                             "message": ""
                         },
                         {
-                            "codegenResult": 2,
-                            "column": 25,
+                            "codegenResult": 0,
+                            "column": 60,
                             "durationMicroseconds": 0,
-                            "functionName": "arcX",
-                            "line": 32,
-                            "message": "Functions without type annotations won't be compiled"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 25,
-                            "durationMicroseconds": 0,
-                            "functionName": "arcY",
-                            "line": 33,
-                            "message": "Functions without type annotations won't be compiled"
+                            "functionName": "orbitWidth",
+                            "line": 34,
+                            "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 43,
+                            "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
                             "line": 36,
@@ -111,338 +103,354 @@
                         },
                         {
                             "codegenResult": 0,
-                            "column": 43,
+                            "column": 36,
                             "durationMicroseconds": 0,
-                            "functionName": "fill",
+                            "functionName": "width",
+                            "line": 40,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 37,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 41,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 58,
+                            "durationMicroseconds": 0,
+                            "functionName": "unit",
+                            "line": 42,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 61,
+                            "durationMicroseconds": 0,
+                            "functionName": "sagitta",
                             "line": 45,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 40,
+                            "column": 60,
                             "durationMicroseconds": 0,
-                            "functionName": "y",
+                            "functionName": "radius",
+                            "line": 46,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 61,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerX",
+                            "line": 47,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "ringRadius",
+                            "line": 48,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "arcY",
+                            "line": 51,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "arcX",
+                            "line": 52,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
                             "line": 62,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 47,
+                            "codegenResult": 2,
+                            "column": 52,
                             "durationMicroseconds": 0,
-                            "functionName": "controlY",
-                            "line": 64,
-                            "message": ""
+                            "functionName": "fillColor",
+                            "line": 65,
+                            "message": "Cannot access value for name index"
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 40,
+                            "codegenResult": 2,
+                            "column": 49,
+                            "durationMicroseconds": 0,
+                            "functionName": "startX",
+                            "line": 66,
+                            "message": "Cannot access value for name canvas"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 68,
-                            "message": ""
+                            "line": 69,
+                            "message": "Cannot access value for name canvas"
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 40,
+                            "codegenResult": 2,
+                            "column": 74,
                             "durationMicroseconds": 0,
                             "functionName": "y",
                             "line": 69,
+                            "message": "Cannot access value for name canvas"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "radiusX",
+                            "line": 70,
+                            "message": "Cannot access value for name canvas"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "radiusY",
+                            "line": 71,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 40,
+                            "column": 56,
+                            "durationMicroseconds": 0,
+                            "functionName": "direction",
+                            "line": 72,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 73,
-                            "message": ""
+                            "line": 74,
+                            "message": "Cannot access value for name canvas"
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 47,
+                            "codegenResult": 2,
+                            "column": 85,
                             "durationMicroseconds": 0,
-                            "functionName": "controlX",
-                            "line": 75,
-                            "message": ""
+                            "functionName": "y",
+                            "line": 74,
+                            "message": "Cannot access value for name canvas"
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 47,
+                            "codegenResult": 2,
+                            "column": 48,
                             "durationMicroseconds": 0,
-                            "functionName": "controlY",
+                            "functionName": "x",
                             "line": 76,
-                            "message": ""
+                            "message": "Cannot access value for name canvas"
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 41,
+                            "codegenResult": 2,
+                            "column": 54,
                             "durationMicroseconds": 0,
-                            "functionName": "startX",
-                            "line": 90,
-                            "message": ""
+                            "functionName": "radiusX",
+                            "line": 77,
+                            "message": "Cannot access value for name canvas"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 40,
+                            "column": 54,
                             "durationMicroseconds": 0,
-                            "functionName": "x",
-                            "line": 94,
+                            "functionName": "radiusY",
+                            "line": 78,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 40,
+                            "column": 56,
                             "durationMicroseconds": 0,
-                            "functionName": "y",
-                            "line": 95,
+                            "functionName": "direction",
+                            "line": 79,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "controlX",
-                            "line": 96,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "controlY",
-                            "line": 97,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 40,
+                            "codegenResult": 2,
+                            "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 101,
-                            "message": ""
+                            "line": 81,
+                            "message": "Cannot access value for name canvas"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "y",
-                            "line": 102,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "x",
-                            "line": 106,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "controlX",
-                            "line": 108,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "controlY",
-                            "line": 109,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "x",
-                            "line": 113,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 43,
+                            "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 125,
+                            "line": 89,
                             "message": ""
                         },
                         {
-                            "codegenResult": 0,
-                            "column": 40,
+                            "codegenResult": 2,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "strokeColor",
+                            "line": 92,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "strokeWidth",
+                            "line": 93,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 49,
+                            "durationMicroseconds": 0,
+                            "functionName": "startX",
+                            "line": 95,
+                            "message": "Cannot access value for name canvas"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 48,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 97,
+                            "message": "Cannot access value for name canvas"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 74,
                             "durationMicroseconds": 0,
                             "functionName": "y",
-                            "line": 136,
+                            "line": 97,
+                            "message": "Cannot access value for name canvas"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "radiusX",
+                            "line": 98,
+                            "message": "Cannot access value for name canvas"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "radiusY",
+                            "line": 99,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 47,
+                            "column": 56,
                             "durationMicroseconds": 0,
-                            "functionName": "controlY",
-                            "line": 138,
+                            "functionName": "direction",
+                            "line": 100,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "scale",
+                            "line": 107,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 110,
+                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "y",
+                            "line": 111,
+                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 41,
+                            "durationMicroseconds": 0,
+                            "functionName": "radius",
+                            "line": 118,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 115,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
                             "column": 41,
                             "durationMicroseconds": 0,
-                            "functionName": "startX",
-                            "line": 146,
+                            "functionName": "radius",
+                            "line": 129,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 40,
+                            "column": 51,
                             "durationMicroseconds": 0,
-                            "functionName": "x",
+                            "functionName": "centerIn",
+                            "line": 126,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 41,
+                            "durationMicroseconds": 0,
+                            "functionName": "radius",
+                            "line": 140,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 137,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 41,
+                            "durationMicroseconds": 0,
+                            "functionName": "radius",
                             "line": 149,
                             "message": ""
                         },
                         {
                             "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "y",
-                            "line": 150,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "controlX",
-                            "line": 151,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "controlY",
-                            "line": 152,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 41,
-                            "durationMicroseconds": 0,
-                            "functionName": "startX",
-                            "line": 160,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "x",
-                            "line": 163,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "y",
-                            "line": 164,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "controlX",
-                            "line": 165,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 47,
-                            "durationMicroseconds": 0,
-                            "functionName": "controlY",
-                            "line": 166,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "x",
-                            "line": 175,
-                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "y",
-                            "line": 176,
-                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 41,
-                            "durationMicroseconds": 0,
-                            "functionName": "radius",
-                            "line": 183,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 180,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 41,
-                            "durationMicroseconds": 0,
-                            "functionName": "radius",
-                            "line": 194,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 191,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 41,
-                            "durationMicroseconds": 0,
-                            "functionName": "radius",
-                            "line": 205,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 202,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 41,
-                            "durationMicroseconds": 0,
-                            "functionName": "radius",
-                            "line": 214,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 211,
+                            "line": 146,
                             "message": ""
                         },
                         {
@@ -450,7 +458,7 @@
                             "column": 46,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 219,
+                            "line": 154,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -458,7 +466,7 @@
                             "column": 68,
                             "durationMicroseconds": 0,
                             "functionName": "x",
-                            "line": 219,
+                            "line": 154,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
                         },
                         {
@@ -466,39 +474,103 @@
                             "column": 101,
                             "durationMicroseconds": 0,
                             "functionName": "y",
-                            "line": 219,
-                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 46,
-                            "durationMicroseconds": 0,
-                            "functionName": "visible",
-                            "line": 220,
-                            "message": "Cannot access value for name app"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 68,
-                            "durationMicroseconds": 0,
-                            "functionName": "x",
-                            "line": 220,
-                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 101,
-                            "durationMicroseconds": 0,
-                            "functionName": "y",
-                            "line": 220,
+                            "line": 154,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 62,
+                            "column": 139,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 154,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 165,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 222,
+                            "line": 154,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 180,
+                            "durationMicroseconds": 0,
+                            "functionName": "radius",
+                            "line": 154,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 46,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 155,
+                            "message": "Cannot access value for name app"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 68,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 155,
+                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 101,
+                            "durationMicroseconds": 0,
+                            "functionName": "y",
+                            "line": 155,
+                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 139,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 155,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 165,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 155,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 180,
+                            "durationMicroseconds": 0,
+                            "functionName": "radius",
+                            "line": 155,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 158,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 64,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 158,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 90,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 158,
                             "message": ""
                         },
                         {
@@ -506,7 +578,7 @@
                             "column": 58,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 223,
+                            "line": 159,
                             "message": ""
                         },
                         {
@@ -514,7 +586,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 224,
+                            "line": 160,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -522,7 +594,7 @@
                             "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 228,
+                            "line": 164,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -530,15 +602,15 @@
                             "column": 95,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 229,
+                            "line": 165,
                             "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 150,
+                            "column": 179,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 229,
+                            "line": 165,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -546,15 +618,23 @@
                             "column": 66,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 229,
+                            "line": 165,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 122,
+                            "durationMicroseconds": 0,
+                            "functionName": "pixelSize",
+                            "line": 165,
+                            "message": "Cannot access value for name canvas"
                         },
                         {
                             "codegenResult": 2,
                             "column": 62,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 230,
+                            "line": 166,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -562,7 +642,7 @@
                             "column": 189,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 230,
+                            "line": 166,
                             "message": ""
                         },
                         {
@@ -570,7 +650,7 @@
                             "column": 110,
                             "durationMicroseconds": 0,
                             "functionName": "right",
-                            "line": 230,
+                            "line": 166,
                             "message": ""
                         },
                         {
@@ -578,7 +658,7 @@
                             "column": 148,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 230,
+                            "line": 166,
                             "message": ""
                         },
                         {
@@ -586,7 +666,7 @@
                             "column": 58,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 234,
+                            "line": 170,
                             "message": ""
                         },
                         {
@@ -594,7 +674,7 @@
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 232,
+                            "line": 168,
                             "message": ""
                         },
                         {
@@ -602,7 +682,7 @@
                             "column": 54,
                             "durationMicroseconds": 0,
                             "functionName": "offset",
-                            "line": 248,
+                            "line": 184,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -610,7 +690,7 @@
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "targetProgress",
-                            "line": 249,
+                            "line": 185,
                             "message": ""
                         },
                         {
@@ -618,7 +698,7 @@
                             "column": 62,
                             "durationMicroseconds": 0,
                             "functionName": "curveProgress",
-                            "line": 250,
+                            "line": 186,
                             "message": ""
                         },
                         {
@@ -626,7 +706,7 @@
                             "column": 57,
                             "durationMicroseconds": 0,
                             "functionName": "selected",
-                            "line": 251,
+                            "line": 187,
                             "message": ""
                         },
                         {
@@ -634,7 +714,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "orbitX",
-                            "line": 256,
+                            "line": 190,
                             "message": "Cannot access value for name canvas"
                         },
                         {
@@ -642,23 +722,23 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "orbitY",
-                            "line": 257,
+                            "line": 191,
+                            "message": "Cannot access value for name canvas"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 194,
                             "message": "Cannot access value for name canvas"
                         },
                         {
                             "codegenResult": 0,
                             "column": 36,
                             "durationMicroseconds": 0,
-                            "functionName": "x",
-                            "line": 260,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 0,
                             "functionName": "y",
-                            "line": 261,
+                            "line": 195,
                             "message": ""
                         },
                         {
@@ -666,7 +746,7 @@
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "referenceWidth",
-                            "line": 266,
+                            "line": 198,
                             "message": ""
                         },
                         {
@@ -674,7 +754,15 @@
                             "column": 64,
                             "durationMicroseconds": 0,
                             "functionName": "referenceHeight",
-                            "line": 267,
+                            "line": 199,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 45,
+                            "durationMicroseconds": 0,
+                            "functionName": "objectName",
+                            "line": 200,
                             "message": ""
                         },
                         {
@@ -682,23 +770,23 @@
                             "column": 40,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 268,
+                            "line": 201,
+                            "message": "Cannot access value for name canvas"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 41,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 202,
                             "message": "Cannot access value for name canvas"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 41,
-                            "durationMicroseconds": 0,
-                            "functionName": "height",
-                            "line": 269,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
                             "column": 42,
-                            "durationMicroseconds": 1000,
+                            "durationMicroseconds": 0,
                             "functionName": "opacity",
-                            "line": 281,
+                            "line": 214,
                             "message": ""
                         },
                         {
@@ -706,7 +794,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "z",
-                            "line": 288,
+                            "line": 221,
                             "message": ""
                         },
                         {
@@ -714,7 +802,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 272,
+                            "line": 205,
                             "message": ""
                         },
                         {
@@ -722,7 +810,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 273,
+                            "line": 206,
                             "message": ""
                         },
                         {
@@ -730,7 +818,55 @@
                             "column": 54,
                             "durationMicroseconds": 0,
                             "functionName": "type",
-                            "line": 295,
+                            "line": 228,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 235,
+                            "message": "Cannot access value for name canvas"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 60,
+                            "durationMicroseconds": 0,
+                            "functionName": "y",
+                            "line": 235,
+                            "message": "Cannot access value for name canvas"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 236,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 45,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 237,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 44,
+                            "durationMicroseconds": 0,
+                            "functionName": "scale",
+                            "line": 238,
+                            "message": "Cannot access value for name canvas"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "transformOrigin",
+                            "line": 239,
                             "message": ""
                         },
                         {
@@ -738,7 +874,191 @@
                             "column": 46,
                             "durationMicroseconds": 0,
                             "functionName": "opacity",
-                            "line": 306,
+                            "line": 242,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 118,
+                            "durationMicroseconds": 0,
+                            "functionName": "sourcePath",
+                            "line": 243,
+                            "message": "Cannot access value for name app"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 245,
+                            "message": "Cannot access value for name app"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 138,
+                            "durationMicroseconds": 0,
+                            "functionName": "elide",
+                            "line": 245,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 246,
+                            "message": "Cannot access value for name app"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 184,
+                            "durationMicroseconds": 0,
+                            "functionName": "elide",
+                            "line": 246,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 250,
+                            "message": "Cannot access value for name app"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 51,
+                            "durationMicroseconds": 0,
+                            "functionName": "text",
+                            "line": 251,
+                            "message": "Cannot access value for name app"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 52,
+                            "durationMicroseconds": 0,
+                            "functionName": "color",
+                            "line": 255,
+                            "message": "Cannot access value for name app"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 55,
+                            "durationMicroseconds": 0,
+                            "functionName": "wrapMode",
+                            "line": 256,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 54,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 260,
+                            "message": "Cannot access value for name app"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 63,
+                            "durationMicroseconds": 0,
+                            "functionName": "alignment",
+                            "line": 263,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 67,
+                            "durationMicroseconds": 0,
+                            "functionName": "centerIn",
+                            "line": 269,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 62,
+                            "durationMicroseconds": 0,
+                            "functionName": "weight",
+                            "line": 274,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 76,
+                            "durationMicroseconds": 0,
+                            "functionName": "enabled",
+                            "line": 280,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 116,
+                            "durationMicroseconds": 0,
+                            "functionName": "cursorShape",
+                            "line": 280,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 150,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 280,
+                            "message": "Cannot access value for name index"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 59,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 280,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 36,
+                            "durationMicroseconds": 0,
+                            "functionName": "width",
+                            "line": 288,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 37,
+                            "durationMicroseconds": 0,
+                            "functionName": "height",
+                            "line": 289,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "x",
+                            "line": 290,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "y",
+                            "line": 291,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "preferredWidth",
+                            "line": 299,
+                            "message": "Cannot access value for name app"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 46,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 300,
                             "message": ""
                         },
                         {
@@ -751,210 +1071,10 @@
                         },
                         {
                             "codegenResult": 2,
-                            "column": 118,
-                            "durationMicroseconds": 0,
-                            "functionName": "sourcePath",
-                            "line": 307,
-                            "message": "Cannot access value for name app"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 54,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 309,
-                            "message": "Cannot access value for name app"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 138,
-                            "durationMicroseconds": 0,
-                            "functionName": "elide",
-                            "line": 309,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 54,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 310,
-                            "message": "Cannot access value for name app"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 184,
-                            "durationMicroseconds": 0,
-                            "functionName": "elide",
-                            "line": 310,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 54,
-                            "durationMicroseconds": 0,
-                            "functionName": "visible",
-                            "line": 314,
-                            "message": "Cannot access value for name app"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "text",
-                            "line": 315,
-                            "message": "Cannot access value for name app"
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 52,
-                            "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 319,
-                            "message": "Cannot access value for name app"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 55,
-                            "durationMicroseconds": 0,
-                            "functionName": "wrapMode",
-                            "line": 320,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 54,
-                            "durationMicroseconds": 0,
-                            "functionName": "visible",
-                            "line": 324,
-                            "message": "Cannot access value for name app"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 63,
-                            "durationMicroseconds": 0,
-                            "functionName": "alignment",
-                            "line": 327,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 67,
-                            "durationMicroseconds": 0,
-                            "functionName": "centerIn",
-                            "line": 333,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 62,
-                            "durationMicroseconds": 0,
-                            "functionName": "weight",
-                            "line": 338,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 76,
-                            "durationMicroseconds": 0,
-                            "functionName": "enabled",
-                            "line": 344,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 116,
-                            "durationMicroseconds": 0,
-                            "functionName": "cursorShape",
-                            "line": 344,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 150,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 344,
-                            "message": "Cannot access value for name index"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 59,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 344,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 55,
-                            "durationMicroseconds": 0,
-                            "functionName": "imageScale",
-                            "line": 352,
-                            "message": "Cannot access value for name app"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 36,
-                            "durationMicroseconds": 0,
-                            "functionName": "width",
-                            "line": 353,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 37,
-                            "durationMicroseconds": 0,
-                            "functionName": "height",
-                            "line": 354,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "x",
-                            "line": 355,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 32,
-                            "durationMicroseconds": 0,
-                            "functionName": "y",
-                            "line": 356,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 40,
-                            "durationMicroseconds": 0,
-                            "functionName": "preferredWidth",
-                            "line": 364,
-                            "message": "Cannot access value for name app"
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 46,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 365,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 51,
-                            "durationMicroseconds": 0,
-                            "functionName": "fill",
-                            "line": 367,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
                             "column": 42,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 368,
+                            "line": 303,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -962,7 +1082,7 @@
                             "column": 105,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 368,
+                            "line": 303,
                             "message": "Cannot access value for name ink"
                         },
                         {
@@ -970,7 +1090,7 @@
                             "column": 132,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 370,
+                            "line": 305,
                             "message": ""
                         },
                         {
@@ -978,7 +1098,7 @@
                             "column": 166,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 370,
+                            "line": 305,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -986,7 +1106,7 @@
                             "column": 111,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 370,
+                            "line": 305,
                             "message": ""
                         },
                         {
@@ -994,7 +1114,7 @@
                             "column": 75,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 372,
+                            "line": 307,
                             "message": ""
                         },
                         {
@@ -1002,7 +1122,7 @@
                             "column": 107,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 372,
+                            "line": 307,
                             "message": "Cannot access value for name edge"
                         },
                         {
@@ -1010,7 +1130,7 @@
                             "column": 53,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 372,
+                            "line": 307,
                             "message": ""
                         },
                         {
@@ -1018,7 +1138,7 @@
                             "column": 124,
                             "durationMicroseconds": 0,
                             "functionName": "policy",
-                            "line": 374,
+                            "line": 309,
                             "message": "Could not find property \"policy\"."
                         },
                         {
@@ -1026,7 +1146,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 375,
+                            "line": 310,
                             "message": ""
                         },
                         {
@@ -1034,7 +1154,7 @@
                             "column": 93,
                             "durationMicroseconds": 0,
                             "functionName": "left",
-                            "line": 375,
+                            "line": 310,
                             "message": ""
                         },
                         {
@@ -1042,7 +1162,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 395,
+                            "line": 330,
                             "message": ""
                         },
                         {
@@ -1050,7 +1170,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 401,
+                            "line": 336,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -1058,7 +1178,7 @@
                             "column": 64,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 408,
+                            "line": 343,
                             "message": ""
                         },
                         {
@@ -1066,15 +1186,15 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "elide",
-                            "line": 409,
+                            "line": 344,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 54,
-                            "durationMicroseconds": 1000,
+                            "durationMicroseconds": 0,
                             "functionName": "onPaint",
-                            "line": 416,
+                            "line": 351,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
                         },
                         {
@@ -1082,7 +1202,7 @@
                             "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 443,
+                            "line": 378,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
@@ -1090,7 +1210,7 @@
                             "column": 42,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 457,
+                            "line": 392,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -1098,7 +1218,7 @@
                             "column": 57,
                             "durationMicroseconds": 0,
                             "functionName": "preferredHeight",
-                            "line": 451,
+                            "line": 386,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -1106,15 +1226,15 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 462,
+                            "line": 397,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
                             "column": 50,
-                            "durationMicroseconds": 2000,
+                            "durationMicroseconds": 0,
                             "functionName": "onPaint",
-                            "line": 475,
+                            "line": 410,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
                         },
                         {
@@ -1122,7 +1242,7 @@
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 473,
+                            "line": 408,
                             "message": ""
                         },
                         {
@@ -1130,7 +1250,7 @@
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 508,
+                            "line": 443,
                             "message": ""
                         },
                         {
@@ -1138,7 +1258,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 513,
+                            "line": 448,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -1146,7 +1266,7 @@
                             "column": 58,
                             "durationMicroseconds": 0,
                             "functionName": "weight",
-                            "line": 519,
+                            "line": 454,
                             "message": ""
                         },
                         {
@@ -1154,7 +1274,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 525,
+                            "line": 460,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -1162,7 +1282,7 @@
                             "column": 55,
                             "durationMicroseconds": 0,
                             "functionName": "wrapMode",
-                            "line": 535,
+                            "line": 470,
                             "message": ""
                         },
                         {
@@ -1170,7 +1290,7 @@
                             "column": 100,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 542,
+                            "line": 477,
                             "message": "Cannot access value for name ink"
                         },
                         {
@@ -1178,7 +1298,7 @@
                             "column": 111,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 543,
+                            "line": 478,
                             "message": "Cannot access value for name edge"
                         },
                         {
@@ -1186,7 +1306,7 @@
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 544,
+                            "line": 479,
                             "message": ""
                         },
                         {
@@ -1194,7 +1314,7 @@
                             "column": 83,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 550,
+                            "line": 485,
                             "message": "Cannot access value for name edge"
                         },
                         {
@@ -1202,7 +1322,7 @@
                             "column": 90,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 552,
+                            "line": 487,
                             "message": "Cannot access value for name ink"
                         },
                         {
@@ -1210,7 +1330,7 @@
                             "column": 111,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 553,
+                            "line": 488,
                             "message": "Cannot access value for name edge"
                         },
                         {
@@ -1218,7 +1338,7 @@
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 554,
+                            "line": 489,
                             "message": ""
                         },
                         {
@@ -1226,7 +1346,7 @@
                             "column": 83,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 560,
+                            "line": 495,
                             "message": "Cannot access value for name edge"
                         },
                         {
@@ -1234,7 +1354,7 @@
                             "column": 84,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 561,
+                            "line": 496,
                             "message": "Cannot access value for name ink"
                         },
                         {
@@ -1242,7 +1362,7 @@
                             "column": 44,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 565,
+                            "line": 500,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
@@ -1250,7 +1370,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 569,
+                            "line": 504,
                             "message": "Could not find property \"text\"."
                         },
                         {
@@ -1258,7 +1378,7 @@
                             "column": 50,
                             "durationMicroseconds": 0,
                             "functionName": "checked",
-                            "line": 570,
+                            "line": 505,
                             "message": "Could not find property \"checked\"."
                         },
                         {
@@ -1266,7 +1386,7 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 610,
+                            "line": 545,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
@@ -1274,7 +1394,7 @@
                             "column": 54,
                             "durationMicroseconds": 0,
                             "functionName": "weight",
-                            "line": 577,
+                            "line": 512,
                             "message": "Could not find property \"weight\"."
                         },
                         {
@@ -1282,7 +1402,7 @@
                             "column": 48,
                             "durationMicroseconds": 0,
                             "functionName": "y",
-                            "line": 583,
+                            "line": 518,
                             "message": "Cannot access value for name patternRadio"
                         },
                         {
@@ -1290,7 +1410,7 @@
                             "column": 53,
                             "durationMicroseconds": 0,
                             "functionName": "radius",
-                            "line": 584,
+                            "line": 519,
                             "message": ""
                         },
                         {
@@ -1298,7 +1418,7 @@
                             "column": 52,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 585,
+                            "line": 520,
                             "message": "Cannot access value for name patternRadio"
                         },
                         {
@@ -1306,7 +1426,7 @@
                             "column": 59,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 586,
+                            "line": 521,
                             "message": "Cannot access value for name patternRadio"
                         },
                         {
@@ -1314,7 +1434,7 @@
                             "column": 57,
                             "durationMicroseconds": 0,
                             "functionName": "radius",
-                            "line": 595,
+                            "line": 530,
                             "message": ""
                         },
                         {
@@ -1322,7 +1442,7 @@
                             "column": 58,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 597,
+                            "line": 532,
                             "message": "Cannot access value for name patternRadio"
                         },
                         {
@@ -1330,7 +1450,7 @@
                             "column": 67,
                             "durationMicroseconds": 0,
                             "functionName": "centerIn",
-                            "line": 592,
+                            "line": 527,
                             "message": ""
                         },
                         {
@@ -1338,7 +1458,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 602,
+                            "line": 537,
                             "message": "Cannot access value for name patternRadio"
                         },
                         {
@@ -1346,7 +1466,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "font",
-                            "line": 603,
+                            "line": 538,
                             "message": "Cannot access value for name patternRadio"
                         },
                         {
@@ -1354,7 +1474,7 @@
                             "column": 64,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 605,
+                            "line": 540,
                             "message": ""
                         },
                         {
@@ -1362,7 +1482,7 @@
                             "column": 58,
                             "durationMicroseconds": 0,
                             "functionName": "leftPadding",
-                            "line": 606,
+                            "line": 541,
                             "message": "Cannot access value for name patternRadio"
                         },
                         {
@@ -1370,7 +1490,7 @@
                             "column": 83,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 617,
+                            "line": 552,
                             "message": "Cannot access value for name edge"
                         },
                         {
@@ -1378,7 +1498,7 @@
                             "column": 56,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 630,
+                            "line": 565,
                             "message": ""
                         },
                         {
@@ -1386,7 +1506,7 @@
                             "column": 50,
                             "durationMicroseconds": 0,
                             "functionName": "weight",
-                            "line": 627,
+                            "line": 562,
                             "message": ""
                         },
                         {
@@ -1394,7 +1514,7 @@
                             "column": 58,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 640,
+                            "line": 575,
                             "message": ""
                         },
                         {
@@ -1402,7 +1522,7 @@
                             "column": 56,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 641,
+                            "line": 576,
                             "message": ""
                         },
                         {
@@ -1410,7 +1530,7 @@
                             "column": 50,
                             "durationMicroseconds": 0,
                             "functionName": "weight",
-                            "line": 638,
+                            "line": 573,
                             "message": ""
                         },
                         {
@@ -1418,7 +1538,7 @@
                             "column": 45,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 647,
+                            "line": 582,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -1426,7 +1546,7 @@
                             "column": 83,
                             "durationMicroseconds": 0,
                             "functionName": "color",
-                            "line": 648,
+                            "line": 583,
                             "message": "Cannot access value for name edge"
                         },
                         {
@@ -1434,7 +1554,7 @@
                             "column": 45,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 649,
+                            "line": 584,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -1442,7 +1562,7 @@
                             "column": 80,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 649,
+                            "line": 584,
                             "message": "Cannot access value for name app"
                         },
                         {
@@ -1450,7 +1570,7 @@
                             "column": 108,
                             "durationMicroseconds": 0,
                             "functionName": "wrapMode",
-                            "line": 649,
+                            "line": 584,
                             "message": ""
                         },
                         {
@@ -1458,39 +1578,23 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 653,
+                            "line": 588,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
-                            "column": 44,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 668,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
                             "column": 46,
                             "durationMicroseconds": 0,
                             "functionName": "weight",
-                            "line": 667,
+                            "line": 602,
                             "message": "Could not find property \"weight\"."
                         },
                         {
                             "codegenResult": 2,
-                            "column": 44,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 680,
-                            "message": "Could not find signal \"clicked\"."
-                        },
-                        {
-                            "codegenResult": 2,
                             "column": 46,
                             "durationMicroseconds": 0,
                             "functionName": "weight",
-                            "line": 679,
+                            "line": 613,
                             "message": "Could not find property \"weight\"."
                         },
                         {
@@ -1498,7 +1602,7 @@
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "parent",
-                            "line": 692,
+                            "line": 625,
                             "message": "Could not find property \"parent\"."
                         },
                         {
@@ -1506,7 +1610,7 @@
                             "column": 16,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 695,
+                            "line": 628,
                             "message": "Could not find property \"width\"."
                         },
                         {
@@ -1514,7 +1618,7 @@
                             "column": 17,
                             "durationMicroseconds": 0,
                             "functionName": "height",
-                            "line": 696,
+                            "line": 629,
                             "message": "Could not find property \"height\"."
                         },
                         {
@@ -1522,7 +1626,7 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "closePolicy",
-                            "line": 701,
+                            "line": 634,
                             "message": "Could not find property \"closePolicy\"."
                         },
                         {
@@ -1530,7 +1634,7 @@
                             "column": 27,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 710,
+                            "line": 643,
                             "message": ""
                         },
                         {
@@ -1538,7 +1642,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 718,
+                            "line": 651,
                             "message": ""
                         },
                         {
@@ -1546,7 +1650,7 @@
                             "column": 72,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 723,
+                            "line": 656,
                             "message": ""
                         },
                         {
@@ -1554,7 +1658,7 @@
                             "column": 106,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 723,
+                            "line": 656,
                             "message": "Cannot retrieve a non-object type by ID: strainConfigDrawer"
                         },
                         {
@@ -1562,7 +1666,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 723,
+                            "line": 656,
                             "message": ""
                         },
                         {
@@ -1570,7 +1674,7 @@
                             "column": 87,
                             "durationMicroseconds": 0,
                             "functionName": "weight",
-                            "line": 725,
+                            "line": 658,
                             "message": ""
                         },
                         {
@@ -1578,7 +1682,7 @@
                             "column": 72,
                             "durationMicroseconds": 0,
                             "functionName": "cursorShape",
-                            "line": 727,
+                            "line": 660,
                             "message": ""
                         },
                         {
@@ -1586,7 +1690,7 @@
                             "column": 106,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 727,
+                            "line": 660,
                             "message": "Cannot retrieve a non-object type by ID: strainConfigDrawer"
                         },
                         {
@@ -1594,7 +1698,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 727,
+                            "line": 660,
                             "message": ""
                         },
                         {
@@ -1602,7 +1706,7 @@
                             "column": 67,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 730,
+                            "line": 663,
                             "message": ""
                         },
                         {
@@ -1610,7 +1714,7 @@
                             "column": 45,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 730,
+                            "line": 663,
                             "message": ""
                         },
                         {
@@ -1618,7 +1722,7 @@
                             "column": 46,
                             "durationMicroseconds": 0,
                             "functionName": "policy",
-                            "line": 737,
+                            "line": 670,
                             "message": "Could not find property \"policy\"."
                         },
                         {
@@ -1626,7 +1730,7 @@
                             "column": 28,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 739,
+                            "line": 672,
                             "message": "Cannot retrieve a non-object type by ID: strainConfigDrawer"
                         },
                         {
@@ -1634,7 +1738,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 744,
+                            "line": 677,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
@@ -1642,7 +1746,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 750,
+                            "line": 683,
                             "message": ""
                         },
                         {
@@ -1650,7 +1754,7 @@
                             "column": 46,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 751,
+                            "line": 684,
                             "message": "Cannot access value for name modelData"
                         },
                         {
@@ -1658,7 +1762,7 @@
                             "column": 133,
                             "durationMicroseconds": 0,
                             "functionName": "weight",
-                            "line": 751,
+                            "line": 684,
                             "message": ""
                         },
                         {
@@ -1666,7 +1770,7 @@
                             "column": 79,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 754,
+                            "line": 687,
                             "message": ""
                         },
                         {
@@ -1674,7 +1778,7 @@
                             "column": 57,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 754,
+                            "line": 687,
                             "message": ""
                         },
                         {
@@ -1682,7 +1786,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 758,
+                            "line": 691,
                             "message": "Cannot generate efficient code for storing an array in a non-sequence type"
                         },
                         {
@@ -1690,7 +1794,7 @@
                             "column": 47,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 763,
+                            "line": 696,
                             "message": ""
                         },
                         {
@@ -1698,7 +1802,7 @@
                             "column": 46,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 764,
+                            "line": 697,
                             "message": "Cannot access value for name modelData"
                         },
                         {
@@ -1706,7 +1810,7 @@
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 768,
+                            "line": 701,
                             "message": ""
                         },
                         {
@@ -1714,15 +1818,15 @@
                             "column": 54,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 769,
+                            "line": 702,
                             "message": "Cannot access value for name modelData"
                         },
                         {
                             "codegenResult": 2,
                             "column": 54,
-                            "durationMicroseconds": 1000,
+                            "durationMicroseconds": 0,
                             "functionName": "onPaint",
-                            "line": 775,
+                            "line": 708,
                             "message": "Cannot generate efficient code for call to untyped JavaScript function"
                         },
                         {
@@ -1730,7 +1834,7 @@
                             "column": 63,
                             "durationMicroseconds": 0,
                             "functionName": "alignment",
-                            "line": 774,
+                            "line": 707,
                             "message": ""
                         },
                         {
@@ -1738,7 +1842,7 @@
                             "column": 79,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 792,
+                            "line": 725,
                             "message": ""
                         },
                         {
@@ -1746,7 +1850,7 @@
                             "column": 57,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 792,
+                            "line": 725,
                             "message": ""
                         },
                         {
@@ -1754,7 +1858,7 @@
                             "column": 43,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 798,
+                            "line": 731,
                             "message": ""
                         },
                         {
@@ -1762,7 +1866,7 @@
                             "column": 110,
                             "durationMicroseconds": 0,
                             "functionName": "right",
-                            "line": 803,
+                            "line": 736,
                             "message": ""
                         },
                         {
@@ -1770,7 +1874,7 @@
                             "column": 172,
                             "durationMicroseconds": 0,
                             "functionName": "verticalCenter",
-                            "line": 803,
+                            "line": 736,
                             "message": ""
                         },
                         {
@@ -1778,7 +1882,7 @@
                             "column": 75,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 807,
+                            "line": 740,
                             "message": ""
                         },
                         {
@@ -1786,7 +1890,7 @@
                             "column": 53,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 807,
+                            "line": 740,
                             "message": ""
                         },
                         {
@@ -1794,7 +1898,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 811,
+                            "line": 744,
                             "message": ""
                         },
                         {
@@ -1802,7 +1906,7 @@
                             "column": 135,
                             "durationMicroseconds": 0,
                             "functionName": "weight",
-                            "line": 812,
+                            "line": 745,
                             "message": ""
                         },
                         {
@@ -1810,7 +1914,7 @@
                             "column": 75,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 815,
+                            "line": 748,
                             "message": ""
                         },
                         {
@@ -1818,7 +1922,7 @@
                             "column": 53,
                             "durationMicroseconds": 0,
                             "functionName": "bottom",
-                            "line": 815,
+                            "line": 748,
                             "message": ""
                         },
                         {
@@ -1826,7 +1930,7 @@
                             "column": 61,
                             "durationMicroseconds": 0,
                             "functionName": "width",
-                            "line": 823,
+                            "line": 756,
                             "message": ""
                         },
                         {
@@ -1834,7 +1938,7 @@
                             "column": 42,
                             "durationMicroseconds": 0,
                             "functionName": "top",
-                            "line": 823,
+                            "line": 756,
                             "message": ""
                         },
                         {
@@ -1842,7 +1946,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 825,
+                            "line": 758,
                             "message": ""
                         },
                         {
@@ -1850,7 +1954,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 828,
+                            "line": 761,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
@@ -1858,7 +1962,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 830,
+                            "line": 763,
                             "message": "Cannot load property text from (component in C:/Users/shital.birnale/source/repos/QTDemoApp/Rotator.qml)::parent with type QQuickItem."
                         },
                         {
@@ -1866,7 +1970,7 @@
                             "column": 148,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 830,
+                            "line": 763,
                             "message": ""
                         },
                         {
@@ -1874,7 +1978,7 @@
                             "column": 186,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 830,
+                            "line": 763,
                             "message": ""
                         },
                         {
@@ -1882,7 +1986,7 @@
                             "column": 36,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 833,
+                            "line": 766,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
@@ -1890,7 +1994,7 @@
                             "column": 51,
                             "durationMicroseconds": 0,
                             "functionName": "text",
-                            "line": 835,
+                            "line": 768,
                             "message": "Cannot load property text from (component in C:/Users/shital.birnale/source/repos/QTDemoApp/Rotator.qml)::parent with type QQuickItem."
                         },
                         {
@@ -1898,7 +2002,7 @@
                             "column": 146,
                             "durationMicroseconds": 0,
                             "functionName": "horizontalAlignment",
-                            "line": 835,
+                            "line": 768,
                             "message": ""
                         },
                         {
@@ -1906,7 +2010,7 @@
                             "column": 184,
                             "durationMicroseconds": 0,
                             "functionName": "verticalAlignment",
-                            "line": 835,
+                            "line": 768,
                             "message": ""
                         }
                     ],

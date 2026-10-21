@@ -7,6 +7,42 @@ Item {
  TestCase {
   name: "DocumentsTable"; when: windowShown
   function find(item, name) { if(item.objectName === name) return item; for(var i=0;i<item.children.length;i++) { var r=find(item.children[i],name); if(r) return r } return null }
+  function test_filterCounts() {
+   var initialChips = docs.chips.slice()
+   compare(docs.resultCount, 20)
+   compare(docs.rowOrder.length, 20)
+   compare(docs.pageCount, 2)
+   var selectAll = findChild(docs, "selectAllSpecimens")
+   verify(!selectAll.checked)
+   mouseClick(selectAll)
+   compare(docs.selected.length, 20)
+   verify(selectAll.checked)
+   docs.page = 2
+   var previous = docs.resultCount
+   while (docs.chips.length) {
+    docs.removeChip(0)
+    verify(docs.resultCount > previous)
+    compare(docs.rowOrder.length, docs.resultCount)
+    compare(docs.page, 1)
+    verify(!selectAll.checked)
+    previous = docs.resultCount
+   }
+   compare(docs.resultCount, 35)
+   docs.chips = initialChips.slice()
+   compare(docs.resultCount, 20)
+   docs.clearFilters()
+   compare(docs.resultCount, 35)
+   compare(docs.pageCount, 4)
+   mouseClick(selectAll)
+   compare(docs.selected.length, 35)
+   verify(selectAll.checked)
+   docs.chips = initialChips
+   compare(docs.selected.length, 20)
+   compare(docs.resultCount, 20)
+   docs.toggleRow(19)
+   verify(!selectAll.checked)
+   docs.selected = [0, 2, 4]
+  }
   function test_filterPanels() {
    var programs = findChild(docs, "programFilterPopup")
    var dates = findChild(docs, "dateFilterPopup")

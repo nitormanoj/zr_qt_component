@@ -120,7 +120,7 @@
                         {
                             "codegenResult": 0,
                             "column": 50,
-                            "durationMicroseconds": 1000,
+                            "durationMicroseconds": 0,
                             "functionName": "columns",
                             "line": 35,
                             "message": ""
@@ -204,22 +204,6 @@
                             "functionName": "horizontalAlignment",
                             "line": 45,
                             "message": ""
-                        },
-                        {
-                            "codegenResult": 0,
-                            "column": 106,
-                            "durationMicroseconds": 0,
-                            "functionName": "cursorShape",
-                            "line": 47,
-                            "message": ""
-                        },
-                        {
-                            "codegenResult": 2,
-                            "column": 140,
-                            "durationMicroseconds": 0,
-                            "functionName": "onClicked",
-                            "line": 47,
-                            "message": "Cannot access value for name app"
                         },
                         {
                             "codegenResult": 0,
